@@ -31,4 +31,10 @@ class CountingValleysTest {
         int numValleys = cv.countingValleysSolution(hike.length(), hike);
         assertEquals(1, numValleys);
     }
+
+    @Test
+    void graphElevationChange(){
+        String hike = "DDDUUUUDDUUUUUDDDDDDUDUU";
+        cv.countingValleysGraph(hike.length(),hike);
+    }
 }
