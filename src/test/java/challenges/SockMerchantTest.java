@@ -38,4 +38,29 @@ class SockMerchantTest {
 
         assertEquals(expectedNumberOfPairs, numberOfPairs);
     }
+
+    @Test
+    void sockMerchantTest1Stream() {
+        int[] ar = {10, 20, 20, 10, 10, 30, 50, 10, 20};
+        int n = 9;
+        int expectedNumberOfPairs = 3;
+
+        int numberOfPairs = sm.sockMerchantSolutionStream(n, ar);
+
+        assertEquals(expectedNumberOfPairs, numberOfPairs);
+
+    }
+
+    @Test
+    void sockMerchantTest2Stream() {
+        int[] ar = {1, 1, 3, 1, 2, 1, 3, 3, 3, 3};
+        int n = 10;
+        int expectedNumberOfPairs = 4;
+
+        int numberOfPairs = sm.sockMerchantSolutionStream(n, ar);
+
+        assertEquals(expectedNumberOfPairs, numberOfPairs);
+    }
+
+
 }

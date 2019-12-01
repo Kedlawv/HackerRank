@@ -1,6 +1,11 @@
 package challenges;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+
+
+import static java.util.stream.Collectors.groupingBy;
 
 public class SockMerchant {
     public int sockMerchantSolution(int n, int[] ar){
@@ -19,7 +24,16 @@ public class SockMerchant {
             }
             numberOfPairs += numberOfSocks / 2;
         }
-
         return numberOfPairs;
+    }
+
+    public int sockMerchantSolutionStream(int n, int[] ar){
+        return Arrays.stream(ar)
+                .boxed()
+                .collect(groupingBy(i -> i))
+                .values()
+                .stream()
+                .map(List::size)
+                .reduce(0,(totalPairs,element) -> totalPairs += element / 2);
     }
 }
