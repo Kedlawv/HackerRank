@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/JumpingOnTheClouds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/JumpingOnTheCloudsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenges/CountingValleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenges/CountingValleys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenges/CountingValleysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenges/CountingValleysTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,50 +15,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/SockMerchant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/CountingValleys.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/CountingValleysTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/JumpingOnTheClouds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="263">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/JumpingOnTheCloudsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +60,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/SockMerchant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/CountingValleys.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/CountingValleysTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/CountingValleys.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/JumpingOnTheCloudsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/JumpingOnTheClouds.java" />
       </list>
     </option>
   </component>
@@ -123,7 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,13 +138,34 @@
             </path>
             <path>
               <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CountingValleysTest.graphElevationChange">
+  <component name="RunManager" selected="JUnit.JumpingOnTheCloudsTest.cloudJumpTest1">
     <configuration name="CountingValleysTest.countingValleysSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
@@ -272,7 +272,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SockMerchantTest.sockMerchantTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JumpingOnTheCloudsTest.cloudJumpTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -281,8 +281,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="challenges" />
-      <option name="MAIN_CLASS_NAME" value="challenges.SockMerchantTest" />
-      <option name="METHOD_NAME" value="sockMerchantTest2" />
+      <option name="MAIN_CLASS_NAME" value="challenges.JumpingOnTheCloudsTest" />
+      <option name="METHOD_NAME" value="cloudJumpTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -290,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JumpingOnTheCloudsTest.cloudJumpTest1" />
         <item itemvalue="JUnit.CountingValleysTest.graphElevationChange" />
         <item itemvalue="JUnit.CountingValleysTest.countingValleysSolutionTest1" />
         <item itemvalue="JUnit.CountingValleysTest.countingValleysSolutionTest2" />
         <item itemvalue="JUnit.CountingValleysTest.countingValleysSolution" />
-        <item itemvalue="JUnit.SockMerchantTest.sockMerchantTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +308,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575208704457</updated>
-      <workItem from="1575208709253" duration="17188000" />
+      <workItem from="1575208709253" duration="17312000" />
+      <workItem from="1575289638241" duration="2547000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -338,22 +339,17 @@
       <option name="project" value="LOCAL" />
       <updated>1575240697102</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="countingValleysGraph()&#10;A method for visualizing the elevation change in the console">
+      <created>1575243916660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575243916660</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountingValleysTest_countingValleysSolutionTest1 - 2019.12.02 at 00h 10m 00s.xml">
-      <configuration name="CountingValleysTest.countingValleysSolutionTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountingValleysTest_countingValleysSolutionTest1 - 2019.12.02 at 00h 23m 04s.xml">
-      <configuration name="CountingValleysTest.countingValleysSolutionTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountingValleysTest_countingValleysSolutionTest1 - 2019.12.02 at 00h 23m 19s.xml">
-      <configuration name="CountingValleysTest.countingValleysSolutionTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountingValleysTest_countingValleysSolutionTest1 - 2019.12.02 at 00h 26m 31s.xml">
-      <configuration name="CountingValleysTest.countingValleysSolutionTest1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CountingValleysTest_countingValleysSolutionTest1 - 2019.12.02 at 00h 27m 23s.xml">
       <configuration name="CountingValleysTest.countingValleysSolutionTest1" configurationId="JUnit" />
     </history-entry>
@@ -372,27 +368,33 @@
     <history-entry file="CountingValleysTest_graphElevationChange - 2019.12.02 at 00h 42m 51s.xml">
       <configuration name="CountingValleysTest.graphElevationChange" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CountingValleysTest_graphElevationChange - 2019.12.02 at 00h 43m 34s.xml">
+      <configuration name="CountingValleysTest.graphElevationChange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JumpingOnTheCloudsTest_cloudJumpTest1 - 2019.12.02 at 14h 24m 48s.xml">
+      <configuration name="JumpingOnTheCloudsTest.cloudJumpTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JumpingOnTheCloudsTest_cloudJumpTest1 - 2019.12.02 at 14h 27m 23s.xml">
+      <configuration name="JumpingOnTheCloudsTest.cloudJumpTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JumpingOnTheCloudsTest_cloudJumpTest1 - 2019.12.02 at 14h 27m 37s.xml">
+      <configuration name="JumpingOnTheCloudsTest.cloudJumpTest1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17188000" />
+    <option name="totallyTimeSpent" value="19859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
@@ -400,16 +402,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32995737" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Codota" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Codota" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,13 +428,26 @@
     <MESSAGE value="added .gitignore to late &#10;Attempt to clear ignored files" />
     <MESSAGE value="sockMerchantSolutionStream() + Test&#10;&#10;A stream implementation of the solution to Sock Merchant challenge" />
     <MESSAGE value="Counting Valleys challenge&#10;Misunderstood the definition of a valley at first which resulted in a bit longer code than some in the Discussions.&#10;I count every time elevation goes down and back up and is below sea level but the next valley doesn't start util we reach sea level again. The best solution seamed to check for the point where we come up from below sea level to sea level." />
-    <option name="LAST_COMMIT_MESSAGE" value="Counting Valleys challenge&#10;Misunderstood the definition of a valley at first which resulted in a bit longer code than some in the Discussions.&#10;I count every time elevation goes down and back up and is below sea level but the next valley doesn't start util we reach sea level again. The best solution seamed to check for the point where we come up from below sea level to sea level." />
+    <MESSAGE value="countingValleysGraph()&#10;A method for visualizing the elevation change in the console" />
+    <option name="LAST_COMMIT_MESSAGE" value="countingValleysGraph()&#10;A method for visualizing the elevation change in the console" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="54">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/CountingValleys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -440,34 +461,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/CountingValleys.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="571">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/CountingValleysTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="810">
           <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/JumpingOnTheCloudsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/JumpingOnTheClouds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
