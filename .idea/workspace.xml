@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/RepeatedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/RepeatedStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArraySolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/HourGlass2DArraySolverTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,22 +21,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/RepeatedString.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArraySolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="351">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/RepeatedStringTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/HourGlass2DArraySolverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="648">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,6 +66,10 @@
         <option value="$PROJECT_DIR$/src/main/java/challenges/JumpingOnTheClouds.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/RepeatedStringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/RepeatedString.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/HourGlass2DArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArray.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/HourGlass2DArraySolverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArraySolver.java" />
       </list>
     </option>
   </component>
@@ -104,7 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +171,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,8 +213,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepeatedStringTest.repeatedStringSolution">
-    <configuration name="CountingValleysTest.countingValleysSolutionTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HourGlass2DArraySolverTest">
+    <configuration name="HourGlass2DArraySolverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -219,14 +223,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="challenges" />
-      <option name="MAIN_CLASS_NAME" value="challenges.CountingValleysTest" />
-      <option name="METHOD_NAME" value="countingValleysSolutionTest1" />
+      <option name="MAIN_CLASS_NAME" value="challenges.HourGlass2DArraySolverTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges" />
+      <option name="MAIN_CLASS_NAME" value="challenges.HourGlass2DArraySolverTest" />
+      <option name="METHOD_NAME" value="getHourGlassSumAtIndexTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingValleysTest.countingValleysSolutionTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HourGlass2DArraySolverTest.hourglassMaxSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -235,24 +254,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="challenges" />
-      <option name="MAIN_CLASS_NAME" value="challenges.CountingValleysTest" />
-      <option name="METHOD_NAME" value="countingValleysSolutionTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountingValleysTest.graphElevationChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges" />
-      <option name="MAIN_CLASS_NAME" value="challenges.CountingValleysTest" />
-      <option name="METHOD_NAME" value="graphElevationChange" />
+      <option name="MAIN_CLASS_NAME" value="challenges.HourGlass2DArraySolverTest" />
+      <option name="METHOD_NAME" value="hourglassMaxSumTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -292,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HourGlass2DArraySolverTest" />
+        <item itemvalue="JUnit.HourGlass2DArraySolverTest.hourglassMaxSumTest" />
+        <item itemvalue="JUnit.HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" />
         <item itemvalue="JUnit.RepeatedStringTest.repeatedStringSolution" />
         <item itemvalue="JUnit.JumpingOnTheCloudsTest.cloudJumpTest1" />
-        <item itemvalue="JUnit.CountingValleysTest.graphElevationChange" />
-        <item itemvalue="JUnit.CountingValleysTest.countingValleysSolutionTest1" />
-        <item itemvalue="JUnit.CountingValleysTest.countingValleysSolutionTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +314,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575208704457</updated>
       <workItem from="1575208709253" duration="17312000" />
-      <workItem from="1575289638241" duration="6032000" />
+      <workItem from="1575289638241" duration="6872000" />
+      <workItem from="1577825425883" duration="5144000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -355,49 +359,56 @@
       <option name="project" value="LOCAL" />
       <updated>1575293433369</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Repeated String Challenge">
+      <created>1575376480232</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575376480232</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountingValleysTest_countingValleysSolutionTest1 - 2019.12.02 at 00h 40m 05s.xml">
-      <configuration name="CountingValleysTest.countingValleysSolutionTest1" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 24m 40s.xml">
+      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountingValleysTest_graphElevationChange - 2019.12.02 at 00h 42m 51s.xml">
-      <configuration name="CountingValleysTest.graphElevationChange" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 25m 27s.xml">
+      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountingValleysTest_graphElevationChange - 2019.12.02 at 00h 43m 34s.xml">
-      <configuration name="CountingValleysTest.graphElevationChange" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 28m 22s.xml">
+      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JumpingOnTheCloudsTest_cloudJumpTest1 - 2019.12.02 at 14h 24m 48s.xml">
-      <configuration name="JumpingOnTheCloudsTest.cloudJumpTest1" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 28m 50s.xml">
+      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JumpingOnTheCloudsTest_cloudJumpTest1 - 2019.12.02 at 14h 27m 23s.xml">
-      <configuration name="JumpingOnTheCloudsTest.cloudJumpTest1" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 38m 55s.xml">
+      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JumpingOnTheCloudsTest_cloudJumpTest1 - 2019.12.02 at 14h 27m 37s.xml">
-      <configuration name="JumpingOnTheCloudsTest.cloudJumpTest1" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 40m 03s.xml">
+      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedStringTest_repeatedStringSolution - 2019.12.03 at 12h 41m 03s.xml">
-      <configuration name="RepeatedStringTest.repeatedStringSolution" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 41m 09s.xml">
+      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedStringTest_repeatedStringSolution - 2019.12.03 at 12h 44m 29s.xml">
-      <configuration name="RepeatedStringTest.repeatedStringSolution" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 41m 20s.xml">
+      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedStringTest_repeatedStringSolution - 2019.12.03 at 12h 44m 40s.xml">
-      <configuration name="RepeatedStringTest.repeatedStringSolution" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest_hourglassMaxSumTest - 2019.12.31 at 22h 52m 37s.xml">
+      <configuration name="HourGlass2DArraySolverTest.hourglassMaxSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedStringTest_repeatedStringSolution - 2019.12.03 at 13h 26m 54s.xml">
-      <configuration name="RepeatedStringTest.repeatedStringSolution" configurationId="JUnit" />
+    <history-entry file="HourGlass2DArraySolverTest - 2019.12.31 at 22h 58m 13s.xml">
+      <configuration name="HourGlass2DArraySolverTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23344000" />
+    <option name="totallyTimeSpent" value="29328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,7 +450,8 @@
     <MESSAGE value="Counting Valleys challenge&#10;Misunderstood the definition of a valley at first which resulted in a bit longer code than some in the Discussions.&#10;I count every time elevation goes down and back up and is below sea level but the next valley doesn't start util we reach sea level again. The best solution seamed to check for the point where we come up from below sea level to sea level." />
     <MESSAGE value="countingValleysGraph()&#10;A method for visualizing the elevation change in the console" />
     <MESSAGE value="Jumping On The Cloud challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jumping On The Cloud challenge" />
+    <MESSAGE value="Repeated String Challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repeated String Challenge" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
@@ -506,21 +518,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/RepeatedString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="153" selection-start-line="2" selection-start-column="153" selection-end-line="2" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/RepeatedStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="405">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/HourGlass2DArraySolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/RepeatedString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArraySolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="351">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
