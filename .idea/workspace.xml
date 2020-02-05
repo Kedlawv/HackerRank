@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/ArraysLeftRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/ArraysLeftRotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/JavaEndOfFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/JavaEndOfFileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,19 +20,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/ArraysLeftRotation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/JavaEndOfFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="378">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ArraysLeftRotationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/JavaEndOfFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="486">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +72,10 @@
         <option value="$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/HourGlass2DArraySolverTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArraySolver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/ArraysLeftRotationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/ArraysLeftRotation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/ArraysLeftRotationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/JavaEndOfFileTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/JavaEndOfFile.java" />
       </list>
     </option>
   </component>
@@ -106,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -144,6 +153,15 @@
               <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -169,7 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,6 +210,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="challenges.practice_java" />
       <recent name="challenges" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -211,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArraysLeftRotationTest.rotLeftTest">
+  <component name="RunManager" selected="JUnit.JavaEndOfFileTest.printsLineWithNumber">
     <configuration name="ArraysLeftRotationTest.rotLeftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
@@ -275,17 +293,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedStringTest.repeatedStringSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaEndOfFileTest.printsLineWithNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challenges.*" />
+          <option name="PATTERN" value="challenges.practice_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="challenges" />
-      <option name="MAIN_CLASS_NAME" value="challenges.RepeatedStringTest" />
-      <option name="METHOD_NAME" value="repeatedStringSolution" />
+      <option name="PACKAGE_NAME" value="challenges.practice_java" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.JavaEndOfFileTest" />
+      <option name="METHOD_NAME" value="printsLineWithNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaEndOfFileTest.printsLineWithNumber" />
         <item itemvalue="JUnit.ArraysLeftRotationTest.rotLeftTest" />
         <item itemvalue="JUnit.HourGlass2DArraySolverTest" />
         <item itemvalue="JUnit.HourGlass2DArraySolverTest.hourglassMaxSumTest" />
         <item itemvalue="JUnit.HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" />
-        <item itemvalue="JUnit.RepeatedStringTest.repeatedStringSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +331,8 @@
       <updated>1575208704457</updated>
       <workItem from="1575208709253" duration="17312000" />
       <workItem from="1575289638241" duration="6872000" />
-      <workItem from="1577825425883" duration="9008000" />
+      <workItem from="1577825425883" duration="9615000" />
+      <workItem from="1580903711679" duration="6000000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -371,22 +390,17 @@
       <option name="project" value="LOCAL" />
       <updated>1577832640603</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Arrays Left Rotation + Test">
+      <created>1577845465382</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577845465382</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 38m 55s.xml">
-      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 40m 03s.xml">
-      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 41m 09s.xml">
-      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HourGlass2DArraySolverTest_getHourGlassSumAtIndexTest - 2019.12.31 at 22h 41m 20s.xml">
-      <configuration name="HourGlass2DArraySolverTest.getHourGlassSumAtIndexTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HourGlass2DArraySolverTest_hourglassMaxSumTest - 2019.12.31 at 22h 52m 37s.xml">
       <configuration name="HourGlass2DArraySolverTest.hourglassMaxSumTest" configurationId="JUnit" />
     </history-entry>
@@ -405,15 +419,27 @@
     <history-entry file="ArraysLeftRotationTest_rotLeftTest - 2020.01.01 at 03h 18m 29s.xml">
       <configuration name="ArraysLeftRotationTest.rotLeftTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JavaEndOfFileTest_printsLineWithNumber - 2020.02.05 at 14h 38m 47s.xml">
+      <configuration name="JavaEndOfFileTest.printsLineWithNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaEndOfFileTest_printsLineWithNumber - 2020.02.05 at 14h 40m 46s.xml">
+      <configuration name="JavaEndOfFileTest.printsLineWithNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaEndOfFileTest_printsLineWithNumber - 2020.02.05 at 14h 42m 45s.xml">
+      <configuration name="JavaEndOfFileTest.printsLineWithNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaEndOfFileTest_printsLineWithNumber - 2020.02.05 at 14h 45m 24s.xml">
+      <configuration name="JavaEndOfFileTest.printsLineWithNumber" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33192000" />
+    <option name="totallyTimeSpent" value="39799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -473,6 +499,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HackerRank WarmUp SockMerchant" />
@@ -483,7 +523,8 @@
     <MESSAGE value="Jumping On The Cloud challenge" />
     <MESSAGE value="Repeated String Challenge" />
     <MESSAGE value="2D array Max HourGlass sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="2D array Max HourGlass sum" />
+    <MESSAGE value="Arrays Left Rotation + Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays Left Rotation + Test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
@@ -581,17 +622,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ArraysLeftRotationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/ArraysLeftRotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/ArraysLeftRotation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ArraysLeftRotationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="378">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/JavaEndOfFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/JavaEndOfFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
