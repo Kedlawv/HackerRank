@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/MyCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/MyCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/BalancedBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/BalancedBracketsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenges/practice_java/MyCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/MyCalculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,20 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/MyCalculator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/BalancedBrackets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/MyCalculatorTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/BalancedBracketsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+            <state relative-caret-position="276">
+              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,6 +84,8 @@
         <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/CurrencyFormatterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/MyCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/MyCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/BalancedBracketsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/BalancedBrackets.java" />
       </list>
     </option>
   </component>
@@ -242,8 +248,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyCalculatorTest">
-    <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BalancedBracketsTest.trueIfUnbalanced">
+    <configuration name="BalancedBracketsTest.trueIfBalanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -252,14 +258,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.CurrencyFormatterTest" />
-      <option name="METHOD_NAME" value="returnCorrectCurrencyFormatForLocale" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="trueIfBalanced" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Date_TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BalancedBracketsTest.trueIfUnbalanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -268,8 +274,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.Date_TimeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="trueIfUnbalanced" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -323,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BalancedBracketsTest.trueIfUnbalanced" />
+        <item itemvalue="JUnit.BalancedBracketsTest.trueIfBalanced" />
         <item itemvalue="JUnit.MyCalculatorTest" />
         <item itemvalue="JUnit.MyCalculatorTest.throwsExceptionOnZeroOrNegativeArguments" />
         <item itemvalue="JUnit.MyCalculatorTest.correctCalculatePower" />
-        <item itemvalue="JUnit.CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" />
-        <item itemvalue="JUnit.Date_TimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +351,7 @@
       <workItem from="1575208709253" duration="17312000" />
       <workItem from="1575289638241" duration="6872000" />
       <workItem from="1577825425883" duration="9615000" />
-      <workItem from="1580903711679" duration="17930000" />
+      <workItem from="1580903711679" duration="22849000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -430,43 +437,50 @@
       <option name="project" value="LOCAL" />
       <updated>1580924186874</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Exception Challenge + Test">
+      <created>1580926570071</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580926570071</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Date_TimeTest_returnsCorrectDayOfWeekCalendar - 2020.02.05 at 17h 39m 17s.xml">
-      <configuration name="Date_TimeTest.returnsCorrectDayOfWeekCalendar" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfBalanced - 2020.02.05 at 21h 15m 49s.xml">
+      <configuration name="BalancedBracketsTest.trueIfBalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Date_TimeTest_returnsCorrectDayOfWeekCalendar - 2020.02.05 at 17h 39m 50s.xml">
-      <configuration name="Date_TimeTest.returnsCorrectDayOfWeekCalendar" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfUnbalanced - 2020.02.05 at 21h 17m 05s.xml">
+      <configuration name="BalancedBracketsTest.trueIfUnbalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Date_TimeTest - 2020.02.05 at 17h 39m 57s.xml">
-      <configuration name="Date_TimeTest" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfBalanced - 2020.02.05 at 21h 17m 53s.xml">
+      <configuration name="BalancedBracketsTest.trueIfBalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyFormatterTest_returnCorrectCurrencyFormatForLocale - 2020.02.05 at 18h 29m 15s.xml">
-      <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfUnbalanced - 2020.02.05 at 21h 18m 44s.xml">
+      <configuration name="BalancedBracketsTest.trueIfUnbalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyFormatterTest_returnCorrectCurrencyFormatForLocale - 2020.02.05 at 18h 29m 52s.xml">
-      <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfUnbalanced - 2020.02.05 at 21h 21m 46s.xml">
+      <configuration name="BalancedBracketsTest.trueIfUnbalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyFormatterTest_returnCorrectCurrencyFormatForLocale - 2020.02.05 at 18h 30m 47s.xml">
-      <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfUnbalanced - 2020.02.05 at 21h 23m 00s.xml">
+      <configuration name="BalancedBracketsTest.trueIfUnbalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyFormatterTest_returnCorrectCurrencyFormatForLocale - 2020.02.05 at 18h 31m 48s.xml">
-      <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfUnbalanced - 2020.02.05 at 21h 25m 07s.xml">
+      <configuration name="BalancedBracketsTest.trueIfUnbalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCalculatorTest_correctCalculatePower - 2020.02.05 at 18h 55m 31s.xml">
-      <configuration name="MyCalculatorTest.correctCalculatePower" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfUnbalanced - 2020.02.05 at 21h 26m 06s.xml">
+      <configuration name="BalancedBracketsTest.trueIfUnbalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCalculatorTest_throwsExceptionOnZeroOrNegativeArguments - 2020.02.05 at 19h 07m 58s.xml">
-      <configuration name="MyCalculatorTest.throwsExceptionOnZeroOrNegativeArguments" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfUnbalanced - 2020.02.05 at 21h 30m 53s.xml">
+      <configuration name="BalancedBracketsTest.trueIfUnbalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCalculatorTest_throwsExceptionOnZeroOrNegativeArguments - 2020.02.05 at 19h 08m 50s.xml">
-      <configuration name="MyCalculatorTest.throwsExceptionOnZeroOrNegativeArguments" configurationId="JUnit" />
+    <history-entry file="BalancedBracketsTest_trueIfUnbalanced - 2020.02.05 at 21h 34m 10s.xml">
+      <configuration name="BalancedBracketsTest.trueIfUnbalanced" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51729000" />
+    <option name="totallyTimeSpent" value="56648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -481,8 +495,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -560,7 +574,20 @@
     <MESSAGE value="End Of File + Test" />
     <MESSAGE value="Day of week from date + Test&#10;Challenge forced the use of Calendar class" />
     <MESSAGE value="Currency Format Challenge + Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Currency Format Challenge + Test" />
+    <MESSAGE value="Exception Challenge + Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception Challenge + Test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/challenges/practice_java/BalancedBracketsTest.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
@@ -739,17 +766,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/MyCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/MyCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="648">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/MyCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/MyCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        <state relative-caret-position="297">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.0-M1/junit-platform-commons-1.6.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/BalancedBracketsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/BalancedBrackets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="16" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

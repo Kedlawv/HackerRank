@@ -9,7 +9,7 @@ public class MyCalculator {
         if (n < 0 || p < 0) {
             throw new Exception("n or p should not be negative");
         }
-
+        System.out.println();
         return (long) Math.pow(n, p);
     }
 }
