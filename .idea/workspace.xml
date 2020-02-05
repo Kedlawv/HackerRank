@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/Date_Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/Date_TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/CurrencyFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/CurrencyFormatterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,23 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/Date_Time.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/CurrencyFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="189">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/Date_TimeTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/CurrencyFormatterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="945">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,6 +79,8 @@
         <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/StaticInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/Date_Time.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/Date_TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/CurrencyFormatter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/CurrencyFormatterTest.java" />
       </list>
     </option>
   </component>
@@ -184,6 +186,15 @@
             </path>
             <path>
               <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -232,18 +243,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Date_TimeTest">
-    <configuration name="ArraysLeftRotationTest.rotLeftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale">
+    <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challenges.*" />
+          <option name="PATTERN" value="challenges.practice_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="challenges" />
-      <option name="MAIN_CLASS_NAME" value="challenges.ArraysLeftRotationTest" />
-      <option name="METHOD_NAME" value="rotLeftTest" />
+      <option name="PACKAGE_NAME" value="challenges.practice_java" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.CurrencyFormatterTest" />
+      <option name="METHOD_NAME" value="returnCorrectCurrencyFormatForLocale" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,11 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" />
         <item itemvalue="JUnit.Date_TimeTest" />
         <item itemvalue="JUnit.Date_TimeTest.returnsCorrectDayOfWeekCalendar" />
         <item itemvalue="JUnit.Date_TimeTest.returnsCorrectDayOfWeek" />
         <item itemvalue="JUnit.JavaEndOfFileTest.printsLineWithNumber" />
-        <item itemvalue="JUnit.ArraysLeftRotationTest.rotLeftTest" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +346,7 @@
       <workItem from="1575208709253" duration="17312000" />
       <workItem from="1575289638241" duration="6872000" />
       <workItem from="1577825425883" duration="9615000" />
-      <workItem from="1580903711679" duration="12812000" />
+      <workItem from="1580903711679" duration="15615000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -407,22 +418,17 @@
       <option name="project" value="LOCAL" />
       <updated>1580911005100</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day of week from date + Test&#10;Challenge forced the use of Calendar class">
+      <created>1580920986442</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580920986442</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Date_TimeTest_returnsCorrectDayOfWeekCalendar - 2020.02.05 at 17h 25m 38s.xml">
-      <configuration name="Date_TimeTest.returnsCorrectDayOfWeekCalendar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Date_TimeTest_returnsCorrectDayOfWeekCalendar - 2020.02.05 at 17h 25m 47s.xml">
-      <configuration name="Date_TimeTest.returnsCorrectDayOfWeekCalendar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Date_TimeTest_returnsCorrectDayOfWeekCalendar - 2020.02.05 at 17h 28m 08s.xml">
-      <configuration name="Date_TimeTest.returnsCorrectDayOfWeekCalendar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Date_TimeTest_returnsCorrectDayOfWeekCalendar - 2020.02.05 at 17h 30m 48s.xml">
-      <configuration name="Date_TimeTest.returnsCorrectDayOfWeekCalendar" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Date_TimeTest_returnsCorrectDayOfWeekCalendar - 2020.02.05 at 17h 32m 04s.xml">
       <configuration name="Date_TimeTest.returnsCorrectDayOfWeekCalendar" configurationId="JUnit" />
     </history-entry>
@@ -441,9 +447,21 @@
     <history-entry file="Date_TimeTest - 2020.02.05 at 17h 39m 57s.xml">
       <configuration name="Date_TimeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CurrencyFormatterTest_returnCorrectCurrencyFormatForLocale - 2020.02.05 at 18h 29m 15s.xml">
+      <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyFormatterTest_returnCorrectCurrencyFormatForLocale - 2020.02.05 at 18h 29m 52s.xml">
+      <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyFormatterTest_returnCorrectCurrencyFormatForLocale - 2020.02.05 at 18h 30m 47s.xml">
+      <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyFormatterTest_returnCorrectCurrencyFormatForLocale - 2020.02.05 at 18h 31m 48s.xml">
+      <configuration name="CurrencyFormatterTest.returnCorrectCurrencyFormatForLocale" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46611000" />
+    <option name="totallyTimeSpent" value="49414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -535,7 +553,8 @@
     <MESSAGE value="2D array Max HourGlass sum" />
     <MESSAGE value="Arrays Left Rotation + Test" />
     <MESSAGE value="End Of File + Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="End Of File + Test" />
+    <MESSAGE value="Day of week from date + Test&#10;Challenge forced the use of Calendar class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day of week from date + Test&#10;Challenge forced the use of Calendar class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
@@ -686,8 +705,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/Date_Time.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="405">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/CurrencyFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/CurrencyFormatterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
