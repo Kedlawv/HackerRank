@@ -53,4 +53,39 @@ class StringIntroductionTest {
         assertEquals(expected, actual);
     }
 
+
+    @Test
+    public void getSmallestLargestSubstring(){
+        String s = "welcometojava";
+        int k = 3;
+        String[] expected = {"ava","wel"};
+
+        String[] actual = StringIntroduction.getSmallestLargestSubstring(s,k);
+
+        assertArrayEquals(expected,actual);
+    }
+
+    @Test
+    public void getSmallestLargestSubstringNoImportsTest(){
+        String s = "welcometojava";
+        int k = 3;
+        String[] expected = {"ava","wel"};
+
+        String[] execute = StringIntroduction.getSmallestLargestSubstringNoImports(s,k);
+        String[] actual = {execute[0],execute[execute.length-1]};
+
+        assertArrayEquals(expected,actual);
+    }
+
+
+    @Test
+    public void bubbleSortTest(){
+        String[] ar = {"elc","lco","ava","wel","eto"};
+        String[] expected = {"ava","elc","eto","lco","wel"};
+
+        String[] actual = StringIntroduction.bubbleSort(ar);
+
+        assertArrayEquals(expected,actual);
+    }
+
 }
