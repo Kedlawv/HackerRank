@@ -41,4 +41,16 @@ class StringIntroductionTest {
         assertEquals(expected,actual);
     }
 
+    @Test
+    public void getSubstringTest(){
+        String s = "Helloworld";
+        int start = 3;
+        int end = 7;
+
+        String expected = "lowo";
+        String actual = StringIntroduction.getSubstring(start,end,s);
+
+        assertEquals(expected, actual);
+    }
+
 }

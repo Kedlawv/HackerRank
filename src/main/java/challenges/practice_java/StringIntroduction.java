@@ -14,4 +14,8 @@ public class StringIntroduction {
         return a.substring(0,1).toUpperCase() + a.substring(1) + " "
                 + b.substring(0,1).toUpperCase() + b.substring(1);
     }
+
+    public static String getSubstring(int start, int end, String s){
+        return s.substring(start,end);
+    }
 }
