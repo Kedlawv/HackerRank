@@ -38,7 +38,7 @@ public class StringIntroduction {
 
     public static String[] getSmallestLargestSubstringNoImports(String s, int k) {
         char[] chars = s.toCharArray();
-        String[] subStrings = new String[chars.length - k +1];
+        String[] subStrings = new String[chars.length - k + 1];
 
         for (int i = 0; i <= chars.length - k; i++) {
             subStrings[i] = (s.substring(i, i + k));
@@ -48,7 +48,7 @@ public class StringIntroduction {
 
     public static String[] bubbleSort(String[] ar) {
         boolean swapped = true;
-        while(swapped) {
+        while (swapped) {
             swapped = false;
             for (int i = 0; i < ar.length - 1; i++) {
                 if (ar[i].compareTo(ar[i + 1]) > 0) {
@@ -60,6 +60,10 @@ public class StringIntroduction {
             }
         }
         return ar;
+    }
+
+    public static boolean isPallindrome(String s) {
+        return s.equals(new StringBuilder(s).reverse().toString());
     }
 
 }
