@@ -2,6 +2,9 @@ package challenges.practice_java;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class StringIntroductionTest {
@@ -97,4 +100,28 @@ class StringIntroductionTest {
         assertFalse(StringIntroduction.isPallindrome(notPallindrome));
     }
 
+    @Test
+    public void calcFreqTest() {
+        String s1 = "anagram";
+        Map<Character, Integer> expected = new HashMap<>();
+        expected.put('a', 3);
+        expected.put('n', 1);
+        expected.put('g', 1);
+        expected.put('r', 1);
+        expected.put('m', 1);
+
+        Map<Character, Integer> freq1 = StringIntroduction.calcFreq(s1);
+
+        assertEquals(expected, freq1);
+    }
+
+    @Test
+    public void arrayEqualsTest(){
+        String[] sAr1 = {"a","b","c"};
+        String[] sAr2 = {"a","c","b"};
+        String[] sAr3 = {"d","e","f"};
+
+        assertTrue(StringIntroduction.sortedArrayEquals(sAr1,sAr2));
+        assertFalse(StringIntroduction.sortedArrayEquals(sAr1,sAr3));
+    }
 }

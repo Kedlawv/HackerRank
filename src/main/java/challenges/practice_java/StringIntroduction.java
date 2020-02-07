@@ -1,8 +1,6 @@
 package challenges.practice_java;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class StringIntroduction {
 
@@ -62,8 +60,45 @@ public class StringIntroduction {
         return ar;
     }
 
+
     public static boolean isPallindrome(String s) {
         return s.equals(new StringBuilder(s).reverse().toString());
+    }
+
+    public static Map<Character, Integer> calcFreq(String s) {
+        String sL = s.toLowerCase();
+        Map<Character, Integer> freq = new HashMap<>();
+        for (char ch : sL.toCharArray()) {
+            if (freq.containsKey(ch)) {
+                freq.put(ch, freq.get(ch) + 1);
+            } else {
+                freq.put(ch, 1);
+            }
+        }
+        return freq;
+    }
+
+    public static boolean isAnagramNoImports(String a, String b) {
+        String[] arSa = a.toLowerCase().split("(?!^)");
+        String[] arSb = b.toLowerCase().split("(?!^)");
+
+        return sortedArrayEquals(arSa,arSb);
+    }
+
+    public static boolean sortedArrayEquals(String[] a, String[] b) {
+        if (a.length != b.length) {
+            return false;
+        }
+
+        a = bubbleSort(a);
+        b = bubbleSort(b);
+
+        for (int i = 0; i < a.length; i++) {
+            if (!a[i].equals(b[i])) {
+                return false;
+            }
+        }
+        return true;
     }
 
 }
