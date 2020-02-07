@@ -141,4 +141,18 @@ class StringIntroductionTest {
         assertArrayEquals(expected,actual);
         assertArrayEquals(expected2,actual2);
     }
+
+    @Test
+    public void isValidIpTest(){
+        String[] validIps = {"000.12.12.034","121.234.12.12","23.45.12.56"};
+        String[] notValidIps = {"000.12.234.23.23","666.666.23.23",".213.123.23.32","23.45.22.32."
+                ,"I.Am.not.an.ip"};
+
+        for(String ip : validIps){
+            assertTrue(StringIntroduction.isValidIp(ip));
+        }
+        for(String ip : notValidIps){
+            assertFalse(StringIntroduction.isValidIp(ip));
+        }
+    }
 }

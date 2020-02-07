@@ -106,5 +106,12 @@ public class StringIntroduction {
         return tokStr;
     }
 
+    public static boolean isValidIp(String s){
+        String zeroTo255 = "([01]?[0-9]{1,2}|2[0-4][0-9]|25[0-5])";
+        String ipValidationPattern = zeroTo255 + "\\." + zeroTo255 + "\\."
+                + zeroTo255 + "\\." + zeroTo255;
+        return s.matches(ipValidationPattern);
+    }
+
 }
 
