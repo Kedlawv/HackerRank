@@ -101,5 +101,10 @@ public class StringIntroduction {
         return true;
     }
 
+    public static String[] tokenizeString(String s){
+        String [] tokStr = s.trim().split("[ !,?._'@]+");
+        return tokStr;
+    }
+
 }
 

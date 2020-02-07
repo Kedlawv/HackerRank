@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="82" column="43" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+            <state relative-caret-position="409">
+              <caret line="104" column="47" lean-forward="true" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
               <folding>
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#251#252#0" expanded="true" />
@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="124" column="69" lean-forward="true" selection-start-line="124" selection-start-column="69" selection-end-line="124" selection-end-column="69" />
+            <state relative-caret-position="348">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -256,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringIntroductionTest.arrayEqualsTest">
+  <component name="RunManager" selected="JUnit.StringIntroductionTest.tokenizeStringTest">
     <configuration name="StringIntroductionTest.arrayEqualsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
@@ -284,22 +284,6 @@
       <option name="PACKAGE_NAME" value="challenges.practice_java" />
       <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
       <option name="METHOD_NAME" value="calcFreqTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringIntroductionTest.getSmallestLargestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
-      <option name="METHOD_NAME" value="getSmallestLargestSubstring" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,13 +321,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringIntroductionTest.tokenizeStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.practice_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges.practice_java" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
+      <option name="METHOD_NAME" value="tokenizeStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringIntroductionTest.tokenizeStringTest" />
         <item itemvalue="JUnit.StringIntroductionTest.arrayEqualsTest" />
         <item itemvalue="JUnit.StringIntroductionTest.calcFreqTest" />
         <item itemvalue="JUnit.StringIntroductionTest.isPallindromeTest" />
         <item itemvalue="JUnit.StringIntroductionTest.getSmallestLargestSubstringNoImportsTest" />
-        <item itemvalue="JUnit.StringIntroductionTest.getSmallestLargestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +362,7 @@
       <workItem from="1577825425883" duration="9615000" />
       <workItem from="1580903711679" duration="23081000" />
       <workItem from="1580989279792" duration="12743000" />
-      <workItem from="1581069890307" duration="6431000" />
+      <workItem from="1581069890307" duration="9552000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -490,43 +490,50 @@
       <option name="project" value="LOCAL" />
       <updated>1581005478904</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="isAnagram challenge | calcFreq using Java lib |  isAnagramNoImports - again Hackerrank does not allow any imports. Solution on bare bones using Array">
+      <created>1581076767688</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581076767688</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringIntroductionTest_getSmallestLargestSubstringNoImportsTest - 2020.02.06 at 16h 50m 22s.xml">
-      <configuration name="StringIntroductionTest.getSmallestLargestSubstringNoImportsTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 37m 21s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringIntroductionTest_getSmallestLargestSubstringNoImportsTest - 2020.02.06 at 16h 50m 39s.xml">
-      <configuration name="StringIntroductionTest.getSmallestLargestSubstringNoImportsTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 37m 52s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringIntroductionTest_getSmallestLargestSubstringNoImportsTest - 2020.02.06 at 16h 52m 08s.xml">
-      <configuration name="StringIntroductionTest.getSmallestLargestSubstringNoImportsTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 42m 57s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringIntroductionTest_getSmallestLargestSubstringNoImportsTest - 2020.02.06 at 16h 52m 40s.xml">
-      <configuration name="StringIntroductionTest.getSmallestLargestSubstringNoImportsTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 43m 40s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringIntroductionTest_isPallindromeTest - 2020.02.06 at 17h 07m 07s.xml">
-      <configuration name="StringIntroductionTest.isPallindromeTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 43m 50s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringIntroductionTest_calcFreqTest - 2020.02.07 at 11h 47m 38s.xml">
-      <configuration name="StringIntroductionTest.calcFreqTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 45m 00s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringIntroductionTest_calcFreqTest - 2020.02.07 at 11h 49m 35s.xml">
-      <configuration name="StringIntroductionTest.calcFreqTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 53m 43s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringIntroductionTest_calcFreqTest - 2020.02.07 at 11h 56m 24s.xml">
-      <configuration name="StringIntroductionTest.calcFreqTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 55m 00s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringIntroductionTest_calcFreqTest - 2020.02.07 at 12h 05m 58s.xml">
-      <configuration name="StringIntroductionTest.calcFreqTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 55m 29s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringIntroductionTest_arrayEqualsTest - 2020.02.07 at 12h 50m 53s.xml">
-      <configuration name="StringIntroductionTest.arrayEqualsTest" configurationId="JUnit" />
+    <history-entry file="StringIntroductionTest_tokenizeStringTest - 2020.02.07 at 13h 55m 54s.xml">
+      <configuration name="StringIntroductionTest.tokenizeStringTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76054000" />
+    <option name="totallyTimeSpent" value="79175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -626,7 +633,8 @@
     <MESSAGE value="getSubstring challenge" />
     <MESSAGE value="get smallest and largest substring of length k from String s &#10;Two versions, hacker rank did not allow any imports.&#10;One version using ArrayList and Collections.sort | other using Arrays only and hand coded bubble sort" />
     <MESSAGE value="isPalindrome ? Using StringBuilder.reverse()" />
-    <option name="LAST_COMMIT_MESSAGE" value="isPalindrome ? Using StringBuilder.reverse()" />
+    <MESSAGE value="isAnagram challenge | calcFreq using Java lib |  isAnagramNoImports - again Hackerrank does not allow any imports. Solution on bare bones using Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="isAnagram challenge | calcFreq using Java lib |  isAnagramNoImports - again Hackerrank does not allow any imports. Solution on bare bones using Array" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
@@ -845,15 +853,15 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.0-M1/junit-platform-commons-1.6.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        <state relative-caret-position="365">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="124" column="69" lean-forward="true" selection-start-line="124" selection-start-column="69" selection-end-line="124" selection-end-column="69" />
+        <state relative-caret-position="348">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -862,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="82" column="43" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+        <state relative-caret-position="409">
+          <caret line="104" column="47" lean-forward="true" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
           <folding>
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />

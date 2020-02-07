@@ -124,4 +124,21 @@ class StringIntroductionTest {
         assertTrue(StringIntroduction.sortedArrayEquals(sAr1,sAr2));
         assertFalse(StringIntroduction.sortedArrayEquals(sAr1,sAr3));
     }
+
+    @Test
+    public void tokenizeStringTest(){
+        String input = "He is a very very good boy, isn't he?";
+        String input2 = "           YES      leading spaces        are valid,    problemsetters are         evillllll";
+        String[] expected = {"He","is","a","very","very","good","boy","isn","t","he"};
+        String[] expected2 = {"YES","leading","spaces","are","valid","problemsetters","are","evillllll"};
+
+
+        String[] actual = StringIntroduction.tokenizeString(input);
+        String[] actual2 = StringIntroduction.tokenizeString(input2);
+
+        assertEquals(10, actual.length);
+        assertEquals(8,actual2.length);
+        assertArrayEquals(expected,actual);
+        assertArrayEquals(expected2,actual2);
+    }
 }
