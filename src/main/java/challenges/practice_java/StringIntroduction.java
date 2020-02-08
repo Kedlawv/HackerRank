@@ -82,7 +82,7 @@ public class StringIntroduction {
         String[] arSa = a.toLowerCase().split("(?!^)");
         String[] arSb = b.toLowerCase().split("(?!^)");
 
-        return sortedArrayEquals(arSa,arSb);
+        return sortedArrayEquals(arSa, arSb);
     }
 
     public static boolean sortedArrayEquals(String[] a, String[] b) {
@@ -101,16 +101,22 @@ public class StringIntroduction {
         return true;
     }
 
-    public static String[] tokenizeString(String s){
-        String [] tokStr = s.trim().split("[ !,?._'@]+");
+    public static String[] tokenizeString(String s) {
+        String[] tokStr = s.trim().split("[ !,?._'@]+");
         return tokStr;
     }
 
-    public static boolean isValidIp(String s){
+    public static boolean isValidIp(String s) {
         String zeroTo255 = "([01]?[0-9]{1,2}|2[0-4][0-9]|25[0-5])";
         String ipValidationPattern = zeroTo255 + "\\." + zeroTo255 + "\\."
                 + zeroTo255 + "\\." + zeroTo255;
         return s.matches(ipValidationPattern);
+    }
+
+    public static boolean isValidUserName(String s) {
+
+        String userPattern = "^[a-zA-z&&[^_\\s]][\\w]{7,29}$";
+        return s.matches(userPattern);
     }
 
 }
