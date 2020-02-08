@@ -1,6 +1,8 @@
 package challenges.practice_java;
 
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class StringIntroduction {
 
@@ -117,6 +119,18 @@ public class StringIntroduction {
 
         String userPattern = "^[a-zA-z&&[^_\\s]][\\w]{7,29}$";
         return s.matches(userPattern);
+    }
+
+    public static List<String> tagTextExtractor(String s){
+        List<String> result = new ArrayList<>();
+        Pattern tagPattern = Pattern.compile("<(.+)>([^<]+)</\\1>");
+        Matcher tagMatcher = tagPattern.matcher(s);
+
+        while(tagMatcher.find()){
+            result.add(tagMatcher.group(2));
+        }
+
+        return result;
     }
 
 }

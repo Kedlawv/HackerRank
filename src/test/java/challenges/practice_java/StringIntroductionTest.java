@@ -5,7 +5,9 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -172,5 +174,25 @@ class StringIntroductionTest {
 
         System.out.println(invalid);
         assertFalse(StringIntroduction.isValidUserName(invalid));
+    }
+
+    @Test
+    public void tagTextExtractorTestTrueIfValid(){
+        String input = "<h1><h1>Sanjay has no watch</h1></h1><par>So wait for a while</par>";
+        List<String> expected = Arrays.asList("Sanjay has no watch","So wait for a while");
+
+        List<String> actual = StringIntroduction.tagTextExtractor(input);
+
+        assertEquals(expected.get(0),actual.get(0));
+        assertEquals(expected.get(1),actual.get(1));
+    }
+
+    @Test
+    public void tagTextExtractorTestNoValid(){
+        String input = "<Amee>safat codes like a ninja</amee>";
+
+        List<String> actual = StringIntroduction.tagTextExtractor(input);
+
+        assertEquals(0,actual.size());
     }
 }

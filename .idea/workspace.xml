@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/csvTestCase5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tagExtractTestCases" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java" afterDir="false" />
     </list>
@@ -21,20 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="274">
+              <caret line="126" column="37" lean-forward="true" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="169" column="62" selection-start-line="169" selection-start-column="62" selection-end-line="169" selection-end-column="62" />
+            <state relative-caret-position="409">
+              <caret line="195" column="30" lean-forward="true" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/csvTestCase5">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/tagExtractTestCases">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2187">
-              <caret line="81" column="13" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="13" />
+            <state relative-caret-position="27">
+              <caret line="1" column="107" selection-start-line="1" selection-start-column="107" selection-end-line="1" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -100,8 +102,9 @@
         <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/BalancedBrackets.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/csvTestCase5" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/tagExtractTestCases" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java" />
       </list>
     </option>
   </component>
@@ -271,23 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)">
-    <configuration name="StringIntroductionTest.isValidUserNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
-      <option name="METHOD_NAME" value="isValidUserNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringIntroductionTest.tagTextExtractorTestNoValid">
     <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
@@ -320,22 +307,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
-      <option name="METHOD_NAME" value="isValidUserNameTestTrueIfInvalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
@@ -352,13 +323,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringIntroductionTest.tagTextExtractorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.practice_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges.practice_java" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
+      <option name="METHOD_NAME" value="tagTextExtractorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringIntroductionTest.tagTextExtractorTestNoValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.practice_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges.practice_java" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
+      <option name="METHOD_NAME" value="tagTextExtractorTestNoValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringIntroductionTest.tagTextExtractorTestNoValid" />
+        <item itemvalue="JUnit.StringIntroductionTest.tagTextExtractorTest" />
         <item itemvalue="JUnit.StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" />
         <item itemvalue="JUnit.StringIntroductionTest.isValidUserNameTestTrueIfInvalid (2)" />
         <item itemvalue="JUnit.StringIntroductionTest.isValidUserNameTestTrueIfValid" />
-        <item itemvalue="JUnit.StringIntroductionTest.isValidUserNameTestTrueIfInvalid" />
-        <item itemvalue="JUnit.StringIntroductionTest.isValidUserNameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +381,7 @@
       <workItem from="1580903711679" duration="23081000" />
       <workItem from="1580989279792" duration="12743000" />
       <workItem from="1581069890307" duration="11510000" />
-      <workItem from="1581162869861" duration="6230000" />
+      <workItem from="1581162869861" duration="11742000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -527,16 +530,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581099322384</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Valid user name starts with a-z A-Z followed by a-z A-Z 0-9 _ | 8 to 30 characters&#10;Add Parameterized tests | CSVFileSource">
+      <created>1581171749600</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581171749600</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringIntroductionTest_isValidUserNameTestTrueIfInvalid_(1) - 2020.02.08 at 14h 40m 40s.xml">
-      <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringIntroductionTest_isValidUserNameTestTrueIfInvalid_(1) - 2020.02.08 at 14h 44m 20s.xml">
-      <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringIntroductionTest_isValidUserNameTestTrueIfInvalid_(1) - 2020.02.08 at 14h 46m 25s.xml">
       <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" configurationId="JUnit" />
     </history-entry>
@@ -561,9 +565,15 @@
     <history-entry file="StringIntroductionTest_isValidUserNameTestTrueIfInvalid_(1) - 2020.02.08 at 15h 18m 29s.xml">
       <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringIntroductionTest_tagTextExtractorTest - 2020.02.08 at 17h 58m 34s.xml">
+      <configuration name="StringIntroductionTest.tagTextExtractorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringIntroductionTest_tagTextExtractorTestNoValid - 2020.02.08 at 18h 28m 08s.xml">
+      <configuration name="StringIntroductionTest.tagTextExtractorTestNoValid" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87363000" />
+    <option name="totallyTimeSpent" value="92875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -666,7 +676,8 @@
     <MESSAGE value="isAnagram challenge | calcFreq using Java lib |  isAnagramNoImports - again Hackerrank does not allow any imports. Solution on bare bones using Array" />
     <MESSAGE value="tokenize String using Regex" />
     <MESSAGE value="Ip validation Regex Challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ip validation Regex Challenge" />
+    <MESSAGE value="Valid user name starts with a-z A-Z followed by a-z A-Z 0-9 _ | 8 to 30 characters&#10;Add Parameterized tests | CSVFileSource" />
+    <option name="LAST_COMMIT_MESSAGE" value="Valid user name starts with a-z A-Z followed by a-z A-Z 0-9 _ | 8 to 30 characters&#10;Add Parameterized tests | CSVFileSource" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
@@ -897,20 +908,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tagExtractTestCases">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="169" column="62" selection-start-line="169" selection-start-column="62" selection-end-line="169" selection-end-column="62" />
+        <state relative-caret-position="27">
+          <caret line="1" column="107" selection-start-line="1" selection-start-column="107" selection-end-line="1" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="126" column="37" lean-forward="true" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="409">
+          <caret line="195" column="30" lean-forward="true" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
