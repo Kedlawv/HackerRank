@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tagExtractTestCases" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/BigNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/BigNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tagExtractTestCases" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,35 +20,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="126" column="37" lean-forward="true" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/BigNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="195" column="30" lean-forward="true" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
+            <state relative-caret-position="270">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/tagExtractTestCases">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/BigNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="107" selection-start-line="1" selection-start-column="107" selection-end-line="1" selection-end-column="107" />
+            <state relative-caret-position="54">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +101,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/tagExtractTestCases" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/BigNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/BigNumber.java" />
       </list>
     </option>
   </component>
@@ -143,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -232,6 +229,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +272,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringIntroductionTest.tagTextExtractorTestNoValid">
+  <component name="RunManager" selected="JUnit.BigNumberTest.primalityTestTestTrueForNotPrime">
+    <configuration name="BigNumberTest.primalityTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.practice_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges.practice_java" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.BigNumberTest" />
+      <option name="METHOD_NAME" value="primalityTestTest(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigNumberTest.primalityTestTestTrueForNotPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.practice_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges.practice_java" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.BigNumberTest" />
+      <option name="METHOD_NAME" value="primalityTestTestTrueForNotPrime(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
@@ -286,38 +316,6 @@
       <option name="PACKAGE_NAME" value="challenges.practice_java" />
       <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
       <option name="METHOD_NAME" value="isValidUserNameTestTrueIfInvalid(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
-      <option name="METHOD_NAME" value="isValidUserNameTestTrueIfInvalid(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.StringIntroductionTest" />
-      <option name="METHOD_NAME" value="isValidUserNameTestTrueIfValid(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BigNumberTest.primalityTestTestTrueForNotPrime" />
+        <item itemvalue="JUnit.BigNumberTest.primalityTestTest" />
         <item itemvalue="JUnit.StringIntroductionTest.tagTextExtractorTestNoValid" />
         <item itemvalue="JUnit.StringIntroductionTest.tagTextExtractorTest" />
         <item itemvalue="JUnit.StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" />
-        <item itemvalue="JUnit.StringIntroductionTest.isValidUserNameTestTrueIfInvalid (2)" />
-        <item itemvalue="JUnit.StringIntroductionTest.isValidUserNameTestTrueIfValid" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +379,8 @@
       <workItem from="1580903711679" duration="23081000" />
       <workItem from="1580989279792" duration="12743000" />
       <workItem from="1581069890307" duration="11510000" />
-      <workItem from="1581162869861" duration="11742000" />
+      <workItem from="1581162869861" duration="11902000" />
+      <workItem from="1581258652130" duration="2770000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -537,16 +536,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581171749600</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="method for extracting text from between balanced &lt;tags&gt;  Regex + Simple Test">
+      <created>1581183256808</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1581183256808</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringIntroductionTest_isValidUserNameTestTrueIfInvalid_(1) - 2020.02.08 at 14h 46m 25s.xml">
-      <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringIntroductionTest_isValidUserNameTestTrueIfValid - 2020.02.08 at 14h 51m 29s.xml">
-      <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfValid" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringIntroductionTest_isValidUserNameTestTrueIfInvalid_(1) - 2020.02.08 at 14h 51m 32s.xml">
       <configuration name="StringIntroductionTest.isValidUserNameTestTrueIfInvalid (1)" configurationId="JUnit" />
     </history-entry>
@@ -571,15 +571,21 @@
     <history-entry file="StringIntroductionTest_tagTextExtractorTestNoValid - 2020.02.08 at 18h 28m 08s.xml">
       <configuration name="StringIntroductionTest.tagTextExtractorTestNoValid" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BigNumberTest_primalityTestTest - 2020.02.09 at 16h 04m 18s.xml">
+      <configuration name="BigNumberTest.primalityTestTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigNumberTest_primalityTestTestTrueForNotPrime - 2020.02.09 at 16h 06m 19s.xml">
+      <configuration name="BigNumberTest.primalityTestTestTrueForNotPrime" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92875000" />
+    <option name="totallyTimeSpent" value="95805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -677,7 +683,8 @@
     <MESSAGE value="tokenize String using Regex" />
     <MESSAGE value="Ip validation Regex Challenge" />
     <MESSAGE value="Valid user name starts with a-z A-Z followed by a-z A-Z 0-9 _ | 8 to 30 characters&#10;Add Parameterized tests | CSVFileSource" />
-    <option name="LAST_COMMIT_MESSAGE" value="Valid user name starts with a-z A-Z followed by a-z A-Z 0-9 _ | 8 to 30 characters&#10;Add Parameterized tests | CSVFileSource" />
+    <MESSAGE value="method for extracting text from between balanced &lt;tags&gt;  Regex + Simple Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="method for extracting text from between balanced &lt;tags&gt;  Regex + Simple Test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
@@ -908,6 +915,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5022">
+          <caret line="186" column="29" selection-start-line="186" selection-start-column="29" selection-end-line="186" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/tagExtractTestCases">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -915,22 +942,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/BigNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="126" column="37" lean-forward="true" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+        <state relative-caret-position="54">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/BigNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="195" column="30" lean-forward="true" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
+        <state relative-caret-position="270">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
