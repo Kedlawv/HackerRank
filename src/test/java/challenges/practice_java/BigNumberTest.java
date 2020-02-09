@@ -33,4 +33,24 @@ class BigNumberTest {
         assertArrayEquals(expected, actual);
     }
 
+    @Test
+    public void sortBigDecTest(){
+        String[] input = {"-100","50","0","56.6","90","0.12",".12","02.34","000.000"};
+        String[] expected = {"90","56.6","50","02.34","0.12",".12","0","000.000","-100"};
+
+        String[] actual = BigNumber.sortBigDec(input);
+
+        assertArrayEquals(expected,actual);
+    }
+
+    @Test
+    public void sortBigDecAnonTest(){
+        String[] input = {"-100","50","0","56.6","90","0.12",".12","02.34","000.000"};
+        String[] expected = {"90","56.6","50","02.34","0.12",".12","0","000.000","-100"};
+
+        String[] actual = BigNumber.sortBigDecAnon(input);
+
+        assertArrayEquals(expected,actual);
+    }
+
 }
