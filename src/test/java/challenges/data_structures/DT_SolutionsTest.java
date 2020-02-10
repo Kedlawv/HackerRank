@@ -2,12 +2,16 @@ package challenges.data_structures;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.io.File;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 class DT_SolutionsTest {
 
@@ -15,7 +19,8 @@ class DT_SolutionsTest {
 
     @BeforeAll
     public static void testValuesFromFile() {
-        try (Scanner scanner = new Scanner(new File("I:/Java_Learning_Repo/hackerrank/src/main/resources/DT_Solutions_SubArrayNegSum"))) {
+        try (Scanner scanner = new Scanner(
+                new File("I:/Java_Learning_Repo/hackerrank/src/main/resources/DT_Solutions_SubArrayNegSum"))) {
 
             int numOfTestValues = scanner.nextInt();
             testValues = new int[numOfTestValues];
@@ -76,6 +81,41 @@ class DT_SolutionsTest {
         int[][] actual = DT_Solutions.getSubarraysOfLength(3, input);
 
         assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void filePathTest(){
+        File file = new File("src\\main\\resources\\DT_Solutions_Arrays");
+
+        System.out.println(file.getAbsolutePath());
+        System.out.println(file.toString());
+        System.out.println(file.exists());
+        assertTrue(file.exists());
+    }
+
+    @Test
+    public void csvToListTest(){
+        File file = new File("src\\main\\resources\\DT_Solutions_Arrays");
+
+        List<List<Integer>> expected = Arrays.asList(Arrays.asList(7,43,35,26,34,78,99,70),
+                Arrays.asList(3,71,11,16),Arrays.asList(8,70,19,42,30,84,20,57,45),Arrays.asList(),
+                Arrays.asList(1,20),Arrays.asList(),Arrays.asList(),Arrays.asList());
+
+        List<List<Integer>> actual = DT_Solutions.csvToList(file);
+
+        assertTrue(expected.equals(actual));
+    }
+
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/DT_Solutions_Arrays_find",delimiter = ' ')
+    public void findIn2dListTest(int a, int b, int expected){
+        File file = new File("src\\main\\resources\\DT_Solutions_Arrays");
+        List<List<Integer>> listInput = DT_Solutions.csvToList(file);
+
+        int actual = DT_Solutions.findIn2dList(a,b,listInput);
+
+        assertEquals(expected, actual);
     }
 
 

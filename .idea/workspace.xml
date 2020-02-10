@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DT_Solutions_SubArrayNegSum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +24,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="193">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,11 +36,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="375">
+              <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="163" column="13" lean-forward="true" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -96,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/BigNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/DT_Solutions_SubArrayNegSum" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays" />
+        <option value="$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java" />
       </list>
@@ -154,39 +190,6 @@
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
@@ -277,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DT_SolutionsTest">
+  <component name="RunManager" selected="JUnit.DT_SolutionsTest.findIn2dListTest">
     <configuration name="DT_SolutionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
@@ -293,7 +296,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DT_SolutionsTest.getSubarraysOfLengthOnesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DT_SolutionsTest.csvToListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -303,13 +306,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="challenges.data_structures" />
       <option name="MAIN_CLASS_NAME" value="challenges.data_structures.DT_SolutionsTest" />
-      <option name="METHOD_NAME" value="getSubarraysOfLengthOnesTest" />
+      <option name="METHOD_NAME" value="csvToListTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DT_SolutionsTest.getSubarraysOfLengthThreesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DT_SolutionsTest.filePathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -319,13 +322,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="challenges.data_structures" />
       <option name="MAIN_CLASS_NAME" value="challenges.data_structures.DT_SolutionsTest" />
-      <option name="METHOD_NAME" value="getSubarraysOfLengthThreesTest" />
+      <option name="METHOD_NAME" value="filePathTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DT_SolutionsTest.getSubarraysOfLengthTwosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DT_SolutionsTest.findIn2dListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -335,7 +338,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="challenges.data_structures" />
       <option name="MAIN_CLASS_NAME" value="challenges.data_structures.DT_SolutionsTest" />
-      <option name="METHOD_NAME" value="getSubarraysOfLengthTwosTest" />
+      <option name="METHOD_NAME" value="findIn2dListTest(int,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -359,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DT_SolutionsTest.findIn2dListTest" />
+        <item itemvalue="JUnit.DT_SolutionsTest.csvToListTest" />
+        <item itemvalue="JUnit.DT_SolutionsTest.filePathTest" />
         <item itemvalue="JUnit.DT_SolutionsTest" />
         <item itemvalue="JUnit.DT_SolutionsTest.subarrayNegativeSumTest3" />
-        <item itemvalue="JUnit.DT_SolutionsTest.getSubarraysOfLengthThreesTest" />
-        <item itemvalue="JUnit.DT_SolutionsTest.getSubarraysOfLengthTwosTest" />
-        <item itemvalue="JUnit.DT_SolutionsTest.getSubarraysOfLengthOnesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +390,7 @@
       <workItem from="1581258652130" duration="9663000" />
       <workItem from="1581326113295" duration="255000" />
       <workItem from="1581326853176" duration="654000" />
-      <workItem from="1581331992343" duration="11383000" />
+      <workItem from="1581331992343" duration="24447000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -571,43 +574,50 @@
       <option name="project" value="LOCAL" />
       <updated>1581271484520</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="get all possible subarrays of array[n] sum the values of the subarrays and count negetavie sums&#10;&#10;In test create an array from CSV file. Absolute path | relative path problem in File">
+      <created>1581345164330</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1581345164330</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DT_SolutionsTest_subarrayNegativeSumTest3 - 2020.02.10 at 14h 53m 25s.xml">
-      <configuration name="DT_SolutionsTest.subarrayNegativeSumTest3" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_csvToListTest - 2020.02.10 at 18h 57m 20s.xml">
+      <configuration name="DT_SolutionsTest.csvToListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DT_SolutionsTest_subarrayNegativeSumTest3 - 2020.02.10 at 14h 54m 43s.xml">
-      <configuration name="DT_SolutionsTest.subarrayNegativeSumTest3" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_csvToListTest - 2020.02.10 at 19h 10m 09s.xml">
+      <configuration name="DT_SolutionsTest.csvToListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DT_SolutionsTest_subarrayNegativeSumTest3 - 2020.02.10 at 14h 55m 11s.xml">
-      <configuration name="DT_SolutionsTest.subarrayNegativeSumTest3" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 19h 38m 07s.xml">
+      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DT_SolutionsTest_subarrayNegativeSumTest3 - 2020.02.10 at 14h 59m 28s.xml">
-      <configuration name="DT_SolutionsTest.subarrayNegativeSumTest3" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 09m 22s.xml">
+      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DT_SolutionsTest_getSubarraysOfLengthTest - 2020.02.10 at 15h 12m 45s.xml">
-      <configuration name="DT_SolutionsTest.getSubarraysOfLengthTest" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 10m 19s.xml">
+      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DT_SolutionsTest_getSubarraysOfLengthTest - 2020.02.10 at 15h 15m 01s.xml">
-      <configuration name="DT_SolutionsTest.getSubarraysOfLengthTest" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 15m 08s.xml">
+      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DT_SolutionsTest_getSubarraysOfLengthOnesTest - 2020.02.10 at 15h 23m 59s.xml">
-      <configuration name="DT_SolutionsTest.getSubarraysOfLengthOnesTest" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 17m 53s.xml">
+      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DT_SolutionsTest_getSubarraysOfLengthTwosTest - 2020.02.10 at 15h 24m 03s.xml">
-      <configuration name="DT_SolutionsTest.getSubarraysOfLengthTwosTest" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 21m 23s.xml">
+      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DT_SolutionsTest_getSubarraysOfLengthThreesTest - 2020.02.10 at 15h 24m 07s.xml">
-      <configuration name="DT_SolutionsTest.getSubarraysOfLengthThreesTest" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 21m 42s.xml">
+      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DT_SolutionsTest_subarrayNegativeSumTest3 - 2020.02.10 at 15h 24m 43s.xml">
-      <configuration name="DT_SolutionsTest.subarrayNegativeSumTest3" configurationId="JUnit" />
+    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 22m 09s.xml">
+      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114990000" />
+    <option name="totallyTimeSpent" value="128054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -689,7 +699,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added .gitignore to late &#10;Attempt to clear ignored files" />
     <MESSAGE value="sockMerchantSolutionStream() + Test&#10;&#10;A stream implementation of the solution to Sock Merchant challenge" />
     <MESSAGE value="Counting Valleys challenge&#10;Misunderstood the definition of a valley at first which resulted in a bit longer code than some in the Discussions.&#10;I count every time elevation goes down and back up and is below sea level but the next valley doesn't start util we reach sea level again. The best solution seamed to check for the point where we come up from below sea level to sea level." />
     <MESSAGE value="countingValleysGraph()&#10;A method for visualizing the elevation change in the console" />
@@ -714,7 +723,8 @@
     <MESSAGE value="prime test using BigInteger" />
     <MESSAGE value="add and multiply BigInteger" />
     <MESSAGE value="sort BigDecimals by rules of the challenge. Lambda impl and Anonymous Class impl as Hackerrank is blowing up with the lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort BigDecimals by rules of the challenge. Lambda impl and Anonymous Class impl as Hackerrank is blowing up with the lambda" />
+    <MESSAGE value="get all possible subarrays of array[n] sum the values of the subarrays and count negetavie sums&#10;&#10;In test create an array from CSV file. Absolute path | relative path problem in File" />
+    <option name="LAST_COMMIT_MESSAGE" value="get all possible subarrays of array[n] sum the values of the subarrays and count negetavie sums&#10;&#10;In test create an array from CSV file. Absolute path | relative path problem in File" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1005,16 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="171" column="45" lean-forward="true" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_SubArrayNegSum">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1029,10 +1029,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="163" column="13" lean-forward="true" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="375">
+          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1041,8 +1065,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="193">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
