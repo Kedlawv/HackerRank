@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,55 +20,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="459">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+            <state relative-caret-position="409">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="163" column="13" lean-forward="true" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -89,6 +61,8 @@
     <findStrings>
       <find>TX</find>
       <find>,</find>
+      <find>add</find>
+      <find>add(int index, E element)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblemTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblem.java" />
       </list>
     </option>
   </component>
@@ -172,7 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,6 +201,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
               <item name="practice_java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,6 +220,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -280,54 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DT_SolutionsTest.findIn2dListTest">
-    <configuration name="DT_SolutionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.data_structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.data_structures" />
-      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.DT_SolutionsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DT_SolutionsTest.csvToListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.data_structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.data_structures" />
-      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.DT_SolutionsTest" />
-      <option name="METHOD_NAME" value="csvToListTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DT_SolutionsTest.filePathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.data_structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.data_structures" />
-      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.DT_SolutionsTest" />
-      <option name="METHOD_NAME" value="filePathTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JavaListProblemTest.removeFromListTest">
     <configuration name="DT_SolutionsTest.findIn2dListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
@@ -344,7 +282,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DT_SolutionsTest.subarrayNegativeSumTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaListProblemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -353,8 +291,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="challenges.data_structures" />
-      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.DT_SolutionsTest" />
-      <option name="METHOD_NAME" value="subarrayNegativeSumTest3" />
+      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.JavaListProblemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaListProblemTest.addToListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.data_structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges.data_structures" />
+      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.JavaListProblemTest" />
+      <option name="METHOD_NAME" value="addToListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaListProblemTest.listFromString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.data_structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges.data_structures" />
+      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.JavaListProblemTest" />
+      <option name="METHOD_NAME" value="listFromString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaListProblemTest.removeFromListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.data_structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges.data_structures" />
+      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.JavaListProblemTest" />
+      <option name="METHOD_NAME" value="removeFromListTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -362,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaListProblemTest.removeFromListTest" />
+        <item itemvalue="JUnit.JavaListProblemTest.addToListTest" />
+        <item itemvalue="JUnit.JavaListProblemTest" />
+        <item itemvalue="JUnit.JavaListProblemTest.listFromString" />
         <item itemvalue="JUnit.DT_SolutionsTest.findIn2dListTest" />
-        <item itemvalue="JUnit.DT_SolutionsTest.csvToListTest" />
-        <item itemvalue="JUnit.DT_SolutionsTest.filePathTest" />
-        <item itemvalue="JUnit.DT_SolutionsTest" />
-        <item itemvalue="JUnit.DT_SolutionsTest.subarrayNegativeSumTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +375,8 @@
       <workItem from="1581258652130" duration="9663000" />
       <workItem from="1581326113295" duration="255000" />
       <workItem from="1581326853176" duration="654000" />
-      <workItem from="1581331992343" duration="24447000" />
+      <workItem from="1581331992343" duration="25172000" />
+      <workItem from="1581426508926" duration="3906000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -581,28 +567,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581345164330</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="What a mess lol | Read 2d List from file | Query the list - return Integer.MAX_VALUE if index does not exist.&#10;Error in challenge doc, first index is 1 based second is 0 based">
+      <created>1581366808044</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1581366808044</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DT_SolutionsTest_csvToListTest - 2020.02.10 at 18h 57m 20s.xml">
-      <configuration name="DT_SolutionsTest.csvToListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DT_SolutionsTest_csvToListTest - 2020.02.10 at 19h 10m 09s.xml">
-      <configuration name="DT_SolutionsTest.csvToListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 19h 38m 07s.xml">
-      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 09m 22s.xml">
-      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 10m 19s.xml">
-      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 15m 08s.xml">
-      <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 17m 53s.xml">
       <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
@@ -615,15 +590,33 @@
     <history-entry file="DT_SolutionsTest_findIn2dListTest - 2020.02.10 at 20h 22m 09s.xml">
       <configuration name="DT_SolutionsTest.findIn2dListTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JavaListProblemTest_listFromString - 2020.02.11 at 14h 45m 48s.xml">
+      <configuration name="JavaListProblemTest.listFromString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaListProblemTest_addToListTest - 2020.02.11 at 14h 57m 43s.xml">
+      <configuration name="JavaListProblemTest.addToListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaListProblemTest - 2020.02.11 at 15h 00m 21s.xml">
+      <configuration name="JavaListProblemTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaListProblemTest_addToListTest - 2020.02.11 at 15h 09m 06s.xml">
+      <configuration name="JavaListProblemTest.addToListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaListProblemTest_addToListTest - 2020.02.11 at 15h 09m 33s.xml">
+      <configuration name="JavaListProblemTest.addToListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaListProblemTest_removeFromListTest - 2020.02.11 at 15h 18m 55s.xml">
+      <configuration name="JavaListProblemTest.removeFromListTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128054000" />
+    <option name="totallyTimeSpent" value="132685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -699,7 +692,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sockMerchantSolutionStream() + Test&#10;&#10;A stream implementation of the solution to Sock Merchant challenge" />
     <MESSAGE value="Counting Valleys challenge&#10;Misunderstood the definition of a valley at first which resulted in a bit longer code than some in the Discussions.&#10;I count every time elevation goes down and back up and is below sea level but the next valley doesn't start util we reach sea level again. The best solution seamed to check for the point where we come up from below sea level to sea level." />
     <MESSAGE value="countingValleysGraph()&#10;A method for visualizing the elevation change in the console" />
     <MESSAGE value="Jumping On The Cloud challenge" />
@@ -724,7 +716,8 @@
     <MESSAGE value="add and multiply BigInteger" />
     <MESSAGE value="sort BigDecimals by rules of the challenge. Lambda impl and Anonymous Class impl as Hackerrank is blowing up with the lambda" />
     <MESSAGE value="get all possible subarrays of array[n] sum the values of the subarrays and count negetavie sums&#10;&#10;In test create an array from CSV file. Absolute path | relative path problem in File" />
-    <option name="LAST_COMMIT_MESSAGE" value="get all possible subarrays of array[n] sum the values of the subarrays and count negetavie sums&#10;&#10;In test create an array from CSV file. Absolute path | relative path problem in File" />
+    <MESSAGE value="What a mess lol | Read 2d List from file | Query the list - return Integer.MAX_VALUE if index does not exist.&#10;Error in challenge doc, first index is 1 based second is 0 based" />
+    <option name="LAST_COMMIT_MESSAGE" value="What a mess lol | Read 2d List from file | Query the list - return Integer.MAX_VALUE if index does not exist.&#10;Error in challenge doc, first index is 1 based second is 0 based" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1029,6 +1022,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4131">
+          <caret line="163" column="13" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1036,39 +1056,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="163" column="13" lean-forward="true" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="648" column="41" selection-start-line="648" selection-start-column="16" selection-end-line="648" selection-end-column="41" />
+          <folding>
+            <element signature="e#4990#4991#0" expanded="true" />
+            <element signature="e#5047#5048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
           </folding>
         </state>
       </provider>
