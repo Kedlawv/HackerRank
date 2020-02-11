@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Checker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/CheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +33,54 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
               <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+              <folding>
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,6 +165,9 @@
         <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/CheckerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Checker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Student.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparator.java" />
       </list>
     </option>
   </component>
@@ -288,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckerTest.compareTest">
+  <component name="RunManager" selected="JUnit.StudentComparatorTest.compareLambdaTest">
     <configuration name="CheckerTest.compareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
@@ -321,33 +367,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairTest.HashSetTestArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentComparatorTest.compareLambdaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challenges.data_structures.*" />
+          <option name="PATTERN" value="challenges.ComparatorChallenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="challenges.data_structures" />
-      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.PairTest" />
-      <option name="METHOD_NAME" value="HashSetTestArray" />
+      <option name="PACKAGE_NAME" value="challenges.ComparatorChallenge" />
+      <option name="MAIN_CLASS_NAME" value="challenges.ComparatorChallenge.StudentComparatorTest" />
+      <option name="METHOD_NAME" value="compareLambdaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairTest.HashSetTestArrayNotUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentComparatorTest.compareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challenges.data_structures.*" />
+          <option name="PATTERN" value="challenges.ComparatorChallenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="challenges.data_structures" />
-      <option name="MAIN_CLASS_NAME" value="challenges.data_structures.PairTest" />
-      <option name="METHOD_NAME" value="HashSetTestArrayNotUnique" />
+      <option name="PACKAGE_NAME" value="challenges.ComparatorChallenge" />
+      <option name="MAIN_CLASS_NAME" value="challenges.ComparatorChallenge.StudentComparatorTest" />
+      <option name="METHOD_NAME" value="compareTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -369,11 +415,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentComparatorTest.compareLambdaTest" />
+        <item itemvalue="JUnit.StudentComparatorTest.compareTest" />
         <item itemvalue="JUnit.CheckerTest.compareTest" />
         <item itemvalue="JUnit.challenges in hackerrank" />
         <item itemvalue="JUnit.GenericPrinterTest.printArrayTest" />
-        <item itemvalue="JUnit.PairTest.HashSetTestArrayNotUnique" />
-        <item itemvalue="JUnit.PairTest.HashSetTestArray" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +444,7 @@
       <workItem from="1581326113295" duration="255000" />
       <workItem from="1581326853176" duration="654000" />
       <workItem from="1581331992343" duration="25172000" />
-      <workItem from="1581426508926" duration="13186000" />
+      <workItem from="1581426508926" duration="17903000" />
     </task>
     <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
       <created>1575210411942</created>
@@ -617,28 +663,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581447968929</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Comparator interface | Sort objects of type Player by score descending if score is same alphabetically by name.">
+      <created>1581452027594</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1581452027594</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GenericPrinterTest_printArrayTest - 2020.02.11 at 20h 00m 28s.xml">
-      <configuration name="GenericPrinterTest.printArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericPrinterTest_printArrayTest - 2020.02.11 at 20h 02m 55s.xml">
-      <configuration name="GenericPrinterTest.printArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericPrinterTest_printArrayTest - 2020.02.11 at 20h 04m 02s.xml">
-      <configuration name="GenericPrinterTest.printArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="challenges_in_hackerrank - 2020.02.11 at 20h 27m 34s.xml">
-      <configuration name="challenges in hackerrank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="challenges_in_hackerrank - 2020.02.11 at 20h 28m 01s.xml">
-      <configuration name="challenges in hackerrank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="challenges_in_hackerrank - 2020.02.11 at 20h 28m 26s.xml">
-      <configuration name="challenges in hackerrank" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckerTest_compareTest - 2020.02.11 at 20h 55m 37s.xml">
       <configuration name="CheckerTest.compareTest" configurationId="JUnit" />
     </history-entry>
@@ -651,9 +686,27 @@
     <history-entry file="CheckerTest_compareTest - 2020.02.11 at 21h 05m 08s.xml">
       <configuration name="CheckerTest.compareTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentComparatorTest_compareTest - 2020.02.11 at 22h 08m 36s.xml">
+      <configuration name="StudentComparatorTest.compareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentComparatorTest_compareTest - 2020.02.11 at 22h 09m 26s.xml">
+      <configuration name="StudentComparatorTest.compareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentComparatorTest_compareTest - 2020.02.11 at 22h 10m 20s.xml">
+      <configuration name="StudentComparatorTest.compareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentComparatorTest_compareTest - 2020.02.11 at 22h 11m 32s.xml">
+      <configuration name="StudentComparatorTest.compareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentComparatorTest_compareTest - 2020.02.11 at 22h 12m 08s.xml">
+      <configuration name="StudentComparatorTest.compareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentComparatorTest_compareLambdaTest - 2020.02.11 at 22h 29m 14s.xml">
+      <configuration name="StudentComparatorTest.compareLambdaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141965000" />
+    <option name="totallyTimeSpent" value="146682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -735,7 +788,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Repeated String Challenge" />
     <MESSAGE value="2D array Max HourGlass sum" />
     <MESSAGE value="Arrays Left Rotation + Test" />
     <MESSAGE value="End Of File + Test" />
@@ -760,7 +812,8 @@
     <MESSAGE value="Java List Problem | Simple operations on List challenge" />
     <MESSAGE value="HashSet Challenge" />
     <MESSAGE value="Generic printer problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic printer problem" />
+    <MESSAGE value="Comparator interface | Sort objects of type Player by score descending if score is same alphabetically by name." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparator interface | Sort objects of type Player by score descending if score is same alphabetically by name." />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -787,18 +840,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/SockMerchantTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/CountingValleysTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -1204,6 +1245,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/CheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -1211,10 +1259,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Checker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="702">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
