@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/DivisorSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/DivisorSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/AddVarargs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/AddVarargsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,24 +18,25 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/DivisorSum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/AddVarargs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="235">
+              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#191#200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/DivisorSumTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/AddVarargsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="355">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -65,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/challenges/SockMerchant.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/CountingValleysTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/CountingValleys.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/JumpingOnTheCloudsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/JumpingOnTheClouds.java" />
@@ -116,6 +114,8 @@
         <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/DivisorSum.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/DivisorSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/AddVarargs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/AddVarargsTest.java" />
       </list>
     </option>
   </component>
@@ -154,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +201,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +222,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -247,7 +248,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DivisorSumTest">
+  <component name="RunManager" selected="JUnit.AddVarargsTest.addTest">
+    <configuration name="AddVarargsTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.practice_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenges.practice_java" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.AddVarargsTest" />
+      <option name="METHOD_NAME" value="addTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DivisorSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
@@ -295,22 +312,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisorSumTest.divisorSumTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.DivisorSumTest" />
-      <option name="METHOD_NAME" value="divisorSumTest1(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DivisorSumTest.divisorSumTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
@@ -329,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddVarargsTest.addTest" />
         <item itemvalue="JUnit.DivisorSumTest" />
         <item itemvalue="JUnit.DivisorSumTest.divisorSumTest2" />
         <item itemvalue="JUnit.DivisorSumTest.divisorSumModuloTest" />
         <item itemvalue="JUnit.DivisorSumTest.divisorSumTest1 (1)" />
-        <item itemvalue="JUnit.DivisorSumTest.divisorSumTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -584,25 +585,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581452027594</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add divisors of a integer | using modulo and using casting">
+      <created>1586525908853</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1586525908853</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentComparatorTest_compareTest - 2020.02.11 at 22h 11m 32s.xml">
-      <configuration name="StudentComparatorTest.compareTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentComparatorTest_compareTest - 2020.02.11 at 22h 12m 08s.xml">
-      <configuration name="StudentComparatorTest.compareTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentComparatorTest_compareLambdaTest - 2020.02.11 at 22h 29m 14s.xml">
-      <configuration name="StudentComparatorTest.compareLambdaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorSumTest_divisorSumTest1 - 2020.04.10 at 15h 15m 22s.xml">
-      <configuration name="DivisorSumTest.divisorSumTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorSumTest_divisorSumTest1_(1) - 2020.04.10 at 15h 16m 01s.xml">
-      <configuration name="DivisorSumTest.divisorSumTest1 (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DivisorSumTest_divisorSumTest1_(1) - 2020.04.10 at 15h 20m 11s.xml">
       <configuration name="DivisorSumTest.divisorSumTest1 (1)" configurationId="JUnit" />
     </history-entry>
@@ -618,6 +611,21 @@
     <history-entry file="DivisorSumTest_divisorSumTest1_(1) - 2020.04.10 at 15h 25m 10s.xml">
       <configuration name="DivisorSumTest.divisorSumTest1 (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DivisorSumTest_divisorSumModuloTest - 2020.04.10 at 15h 34m 11s.xml">
+      <configuration name="DivisorSumTest.divisorSumModuloTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisorSumTest_divisorSumTest2 - 2020.04.10 at 15h 35m 28s.xml">
+      <configuration name="DivisorSumTest.divisorSumTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisorSumTest - 2020.04.10 at 15h 36m 46s.xml">
+      <configuration name="DivisorSumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddVarargsTest_addTest - 2020.04.12 at 14h 39m 00s.xml">
+      <configuration name="AddVarargsTest.addTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddVarargsTest_addTest - 2020.04.12 at 14h 40m 48s.xml">
+      <configuration name="AddVarargsTest.addTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="146682000" />
@@ -626,14 +634,14 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2840617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29177377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32839838" />
@@ -703,7 +711,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2D array Max HourGlass sum" />
     <MESSAGE value="Arrays Left Rotation + Test" />
     <MESSAGE value="End Of File + Test" />
     <MESSAGE value="Day of week from date + Test&#10;Challenge forced the use of Calendar class" />
@@ -728,7 +735,8 @@
     <MESSAGE value="HashSet Challenge" />
     <MESSAGE value="Generic printer problem" />
     <MESSAGE value="Comparator interface | Sort objects of type Player by score descending if score is same alphabetically by name." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparator interface | Sort objects of type Player by score descending if score is same alphabetically by name." />
+    <MESSAGE value="add divisors of a integer | using modulo and using casting" />
+    <option name="LAST_COMMIT_MESSAGE" value="add divisors of a integer | using modulo and using casting" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -755,23 +763,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/JumpingOnTheClouds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/SockMerchant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/JumpingOnTheCloudsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1156,18 +1147,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/DivisorSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="480">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/DivisorSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        <state relative-caret-position="647">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/AddVarargs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#191#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/AddVarargsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
         </state>
       </provider>
     </entry>
