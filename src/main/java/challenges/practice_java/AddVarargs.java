@@ -46,4 +46,15 @@ public class AddVarargs {
 
         return returnStr += sum;
     }
+
+    public void addHackerRank(int... intArgs) {
+        int sum = 0;
+        String separator = "";
+        for (int i : intArgs) {
+            sum += i;
+            System.out.print(separator + i);
+            separator = "+";
+        }
+        System.out.println("=" + sum);
+    }
 }
