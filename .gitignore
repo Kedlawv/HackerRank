@@ -19,7 +19,7 @@
 #IntelliJ
 *.iml
 .editorconfig
-workspace.xml
+.idea
 
 #Target Directory
 /target/
