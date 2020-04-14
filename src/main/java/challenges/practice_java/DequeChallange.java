@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class DequeChallange {
 
-    public int getMaxUniqueOfSubArray(int[] arr, int subarraySize) {
+    public int getMaxUniqueOfSubArrayStream(int[] arr, int subarraySize) {
         Deque<Integer> deque = new ArrayDeque<>();
         int maxUniqueNum = 0;
         int n = arr.length;
@@ -26,4 +26,6 @@ public class DequeChallange {
         }
         return maxUniqueNum;
     }
+
+
 }
