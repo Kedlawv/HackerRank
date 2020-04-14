@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/AddVarargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/AddVarargsTest.java" afterDir="false" />
+    <list default="true" id="c9254d53-21ac-42a4-b1ee-b9f6b8e65948" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenges/practice_java/DequeChallange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenges/practice_java/DequeChallangeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,25 +15,24 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/AddVarargs.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/DequeChallange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="405">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#191#200#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/AddVarargsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/DequeChallangeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="351">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -51,102 +47,16 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>TX</find>
-      <find>,</find>
-      <find>add</find>
-      <find>add(int index, E element)</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/challenges/CountingValleys.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/JumpingOnTheCloudsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/JumpingOnTheClouds.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/RepeatedStringTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/RepeatedString.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/HourGlass2DArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArray.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/HourGlass2DArraySolverTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArraySolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/ArraysLeftRotation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/ArraysLeftRotationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/JavaEndOfFileTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/JavaEndOfFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/StaticInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/Date_Time.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/Date_TimeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/CurrencyFormatter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/CurrencyFormatterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/MyCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/MyCalculator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/BalancedBracketsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/BalancedBrackets.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/csvTestCase5" />
-        <option value="$PROJECT_DIR$/src/main/resources/tagExtractTestCases" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/BigNumber.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/BigNumberTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/DT_Solutions_SubArrayNegSum" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays" />
-        <option value="$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblemTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblem.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/Pair.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/HashSetProblem.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/data_structures/PairTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/generics/GenericPrinterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/generics/GenericPrinter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/CheckerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Player.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Checker.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Student.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/DivisorSum.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/DivisorSumTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/AddVarargs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/AddVarargsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenges/practice_java/DequeChallange.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenges/practice_java/DequeChallangeTest.java" />
       </list>
     </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hacker-rank" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hacker-rank" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -158,82 +68,72 @@
         <subPane>
           <expand>
             <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="challenges" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="challenges" type="462c0819:PsiDirectoryNode" />
               <item name="practice_java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="challenges.practice_java" />
-      <recent name="challenges.ComparatorChallenge" />
-      <recent name="challenges.generics" />
-      <recent name="challenges.data_structures" />
-      <recent name="challenges" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\Java_Learning_Repo\hackerrank\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,9 +148,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddVarargsTest.addTest">
-    <configuration name="AddVarargsTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
+  <component name="RunManager">
+    <configuration name="DequeChallangeTest.getMaxUniqueOfSubArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="challenges.practice_java.*" />
@@ -258,71 +158,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.AddVarargsTest" />
-      <option name="METHOD_NAME" value="addTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivisorSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.DivisorSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivisorSumTest.divisorSumModuloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.DivisorSumTest" />
-      <option name="METHOD_NAME" value="divisorSumModuloTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivisorSumTest.divisorSumTest1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.DivisorSumTest" />
-      <option name="METHOD_NAME" value="divisorSumTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivisorSumTest.divisorSumTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.practice_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="challenges.practice_java" />
-      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.DivisorSumTest" />
-      <option name="METHOD_NAME" value="divisorSumTest2" />
+      <option name="MAIN_CLASS_NAME" value="challenges.practice_java.DequeChallangeTest" />
+      <option name="METHOD_NAME" value="getMaxUniqueOfSubArrayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -330,11 +167,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddVarargsTest.addTest" />
-        <item itemvalue="JUnit.DivisorSumTest" />
-        <item itemvalue="JUnit.DivisorSumTest.divisorSumTest2" />
-        <item itemvalue="JUnit.DivisorSumTest.divisorSumModuloTest" />
-        <item itemvalue="JUnit.DivisorSumTest.divisorSumTest1 (1)" />
+        <item itemvalue="JUnit.DequeChallangeTest.getMaxUniqueOfSubArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -342,299 +175,24 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="cd716be6-fcc6-40eb-a5ef-fd438bc476b4" name="Default Changelist" comment="" />
-      <created>1575208704457</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1575208704457</updated>
-      <workItem from="1575208709253" duration="17312000" />
-      <workItem from="1575289638241" duration="6872000" />
-      <workItem from="1577825425883" duration="9615000" />
-      <workItem from="1580903711679" duration="23081000" />
-      <workItem from="1580989279792" duration="12743000" />
-      <workItem from="1581069890307" duration="11510000" />
-      <workItem from="1581162869861" duration="11902000" />
-      <workItem from="1581258652130" duration="9663000" />
-      <workItem from="1581326113295" duration="255000" />
-      <workItem from="1581326853176" duration="654000" />
-      <workItem from="1581331992343" duration="25172000" />
-      <workItem from="1581426508926" duration="17903000" />
-    </task>
-    <task id="LOCAL-00001" summary="HackerRank WarmUp SockMerchant">
-      <created>1575210411942</created>
+    <task id="LOCAL-00001" summary="Some missing files">
+      <created>1586888898539</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1575210411943</updated>
+      <updated>1586888898539</updated>
     </task>
-    <task id="LOCAL-00002" summary="added .gitignore to late &#10;Attempt to clear ignored files">
-      <created>1575211535121</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1575211535121</updated>
-    </task>
-    <task id="LOCAL-00003" summary="sockMerchantSolutionStream() + Test&#10;&#10;A stream implementation of the solution to Sock Merchant challenge">
-      <created>1575220750392</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1575220750392</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Counting Valleys challenge&#10;Misunderstood the definition of a valley at first which resulted in a bit longer code than some in the Discussions.&#10;I count every time elevation goes down and back up and is below sea level but the next valley doesn't start util we reach sea level again. The best solution seamed to check for the point where we come up from below sea level to sea level.">
-      <created>1575240697102</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1575240697102</updated>
-    </task>
-    <task id="LOCAL-00005" summary="countingValleysGraph()&#10;A method for visualizing the elevation change in the console">
-      <created>1575243916660</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1575243916660</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Jumping On The Cloud challenge">
-      <created>1575293433369</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1575293433369</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Repeated String Challenge">
-      <created>1575376480232</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1575376480232</updated>
-    </task>
-    <task id="LOCAL-00008" summary="2D array Max HourGlass sum">
-      <created>1577832640603</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1577832640603</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Arrays Left Rotation + Test">
-      <created>1577845465382</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1577845465382</updated>
-    </task>
-    <task id="LOCAL-00010" summary="End Of File + Test">
-      <created>1580911005100</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1580911005100</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Day of week from date + Test&#10;Challenge forced the use of Calendar class">
-      <created>1580920986442</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1580920986442</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Currency Format Challenge + Test">
-      <created>1580924186874</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1580924186874</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Exception Challenge + Test">
-      <created>1580926570071</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1580926570071</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Balanced Brackets + Tests">
-      <created>1580935261617</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1580935261617</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Simple String manipulation challenge">
-      <created>1580995485304</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1580995485305</updated>
-    </task>
-    <task id="LOCAL-00016" summary="getSubstring challenge">
-      <created>1580997774215</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1580997774215</updated>
-    </task>
-    <task id="LOCAL-00017" summary="get smallest and largest substring of length k from String s &#10;Two versions, hacker rank did not allow any imports.&#10;One version using ArrayList and Collections.sort | other using Arrays only and hand coded bubble sort">
-      <created>1581004692675</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1581004692675</updated>
-    </task>
-    <task id="LOCAL-00018" summary="isPalindrome ? Using StringBuilder.reverse()">
-      <created>1581005478904</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1581005478904</updated>
-    </task>
-    <task id="LOCAL-00019" summary="isAnagram challenge | calcFreq using Java lib |  isAnagramNoImports - again Hackerrank does not allow any imports. Solution on bare bones using Array">
-      <created>1581076767688</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1581076767688</updated>
-    </task>
-    <task id="LOCAL-00020" summary="tokenize String using Regex">
-      <created>1581080561704</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1581080561704</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Ip validation Regex Challenge">
-      <created>1581099322384</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1581099322384</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Valid user name starts with a-z A-Z followed by a-z A-Z 0-9 _ | 8 to 30 characters&#10;Add Parameterized tests | CSVFileSource">
-      <created>1581171749600</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1581171749600</updated>
-    </task>
-    <task id="LOCAL-00023" summary="method for extracting text from between balanced &lt;tags&gt;  Regex + Simple Test">
-      <created>1581183256808</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1581183256808</updated>
-    </task>
-    <task id="LOCAL-00024" summary="prime test using BigInteger">
-      <created>1581261554121</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1581261554121</updated>
-    </task>
-    <task id="LOCAL-00025" summary="add and multiply BigInteger">
-      <created>1581267706333</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1581267706333</updated>
-    </task>
-    <task id="LOCAL-00026" summary="sort BigDecimals by rules of the challenge. Lambda impl and Anonymous Class impl as Hackerrank is blowing up with the lambda">
-      <created>1581271484520</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1581271484520</updated>
-    </task>
-    <task id="LOCAL-00027" summary="get all possible subarrays of array[n] sum the values of the subarrays and count negetavie sums&#10;&#10;In test create an array from CSV file. Absolute path | relative path problem in File">
-      <created>1581345164330</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1581345164330</updated>
-    </task>
-    <task id="LOCAL-00028" summary="What a mess lol | Read 2d List from file | Query the list - return Integer.MAX_VALUE if index does not exist.&#10;Error in challenge doc, first index is 1 based second is 0 based">
-      <created>1581366808044</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1581366808044</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Java List Problem | Simple operations on List challenge">
-      <created>1581432127575</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1581432127575</updated>
-    </task>
-    <task id="LOCAL-00030" summary="HashSet Challenge">
-      <created>1581437511958</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1581437511958</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Generic printer problem">
-      <created>1581447968929</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1581447968929</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Comparator interface | Sort objects of type Player by score descending if score is same alphabetically by name.">
-      <created>1581452027594</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1581452027594</updated>
-    </task>
-    <task id="LOCAL-00033" summary="add divisors of a integer | using modulo and using casting">
-      <created>1586525908853</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1586525908853</updated>
-    </task>
-    <option name="localTasksCounter" value="34" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="DivisorSumTest_divisorSumTest1_(1) - 2020.04.10 at 15h 20m 11s.xml">
-      <configuration name="DivisorSumTest.divisorSumTest1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorSumTest_divisorSumTest1_(1) - 2020.04.10 at 15h 23m 25s.xml">
-      <configuration name="DivisorSumTest.divisorSumTest1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorSumTest_divisorSumTest1_(1) - 2020.04.10 at 15h 24m 31s.xml">
-      <configuration name="DivisorSumTest.divisorSumTest1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorSumTest_divisorSumTest1_(1) - 2020.04.10 at 15h 24m 36s.xml">
-      <configuration name="DivisorSumTest.divisorSumTest1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorSumTest_divisorSumTest1_(1) - 2020.04.10 at 15h 25m 10s.xml">
-      <configuration name="DivisorSumTest.divisorSumTest1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorSumTest_divisorSumModuloTest - 2020.04.10 at 15h 34m 11s.xml">
-      <configuration name="DivisorSumTest.divisorSumModuloTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorSumTest_divisorSumTest2 - 2020.04.10 at 15h 35m 28s.xml">
-      <configuration name="DivisorSumTest.divisorSumTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorSumTest - 2020.04.10 at 15h 36m 46s.xml">
-      <configuration name="DivisorSumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddVarargsTest_addTest - 2020.04.12 at 14h 39m 00s.xml">
-      <configuration name="AddVarargsTest.addTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddVarargsTest_addTest - 2020.04.12 at 14h 40m 48s.xml">
-      <configuration name="AddVarargsTest.addTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146682000" />
+    <option name="totallyTimeSpent" value="514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29177377" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28997868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -644,7 +202,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32839838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -667,9 +225,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -681,14 +236,6 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
               </option>
             </State>
           </value>
@@ -711,545 +258,33 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrays Left Rotation + Test" />
-    <MESSAGE value="End Of File + Test" />
-    <MESSAGE value="Day of week from date + Test&#10;Challenge forced the use of Calendar class" />
-    <MESSAGE value="Currency Format Challenge + Test" />
-    <MESSAGE value="Exception Challenge + Test" />
-    <MESSAGE value="Balanced Brackets + Tests" />
-    <MESSAGE value="Simple String manipulation challenge" />
-    <MESSAGE value="getSubstring challenge" />
-    <MESSAGE value="get smallest and largest substring of length k from String s &#10;Two versions, hacker rank did not allow any imports.&#10;One version using ArrayList and Collections.sort | other using Arrays only and hand coded bubble sort" />
-    <MESSAGE value="isPalindrome ? Using StringBuilder.reverse()" />
-    <MESSAGE value="isAnagram challenge | calcFreq using Java lib |  isAnagramNoImports - again Hackerrank does not allow any imports. Solution on bare bones using Array" />
-    <MESSAGE value="tokenize String using Regex" />
-    <MESSAGE value="Ip validation Regex Challenge" />
-    <MESSAGE value="Valid user name starts with a-z A-Z followed by a-z A-Z 0-9 _ | 8 to 30 characters&#10;Add Parameterized tests | CSVFileSource" />
-    <MESSAGE value="method for extracting text from between balanced &lt;tags&gt;  Regex + Simple Test" />
-    <MESSAGE value="prime test using BigInteger" />
-    <MESSAGE value="add and multiply BigInteger" />
-    <MESSAGE value="sort BigDecimals by rules of the challenge. Lambda impl and Anonymous Class impl as Hackerrank is blowing up with the lambda" />
-    <MESSAGE value="get all possible subarrays of array[n] sum the values of the subarrays and count negetavie sums&#10;&#10;In test create an array from CSV file. Absolute path | relative path problem in File" />
-    <MESSAGE value="What a mess lol | Read 2d List from file | Query the list - return Integer.MAX_VALUE if index does not exist.&#10;Error in challenge doc, first index is 1 based second is 0 based" />
-    <MESSAGE value="Java List Problem | Simple operations on List challenge" />
-    <MESSAGE value="HashSet Challenge" />
-    <MESSAGE value="Generic printer problem" />
-    <MESSAGE value="Comparator interface | Sort objects of type Player by score descending if score is same alphabetically by name." />
-    <MESSAGE value="add divisors of a integer | using modulo and using casting" />
-    <option name="LAST_COMMIT_MESSAGE" value="add divisors of a integer | using modulo and using casting" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>(int)Math.round(((double)(arr.length) / n))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(double)(arr.length) / n)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr.length / n</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Math.round(arr.length / n)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
+    <MESSAGE value="Some missing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some missing files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/JumpingOnTheCloudsTest.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/RepeatedString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="153" selection-start-line="2" selection-start-column="153" selection-end-line="2" selection-end-column="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/RepeatedStringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/DequeChallange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/HourGlass2DArraySolverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/ArraysLeftRotation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/DequeChallangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="351">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ArraysLeftRotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/JavaEndOfFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StaticInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/JavaEndOfFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/Date_TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/Date_Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/CurrencyFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/CurrencyFormatterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/MyCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/MyCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/BalancedBracketsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/BalancedBrackets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.0-M1/junit-platform-commons-1.6.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/csvTestCase5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2187">
-          <caret line="81" column="13" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/StringIntroduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/tagExtractTestCases" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/HourGlass2DArraySolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/BigNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/BigNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_SubArrayNegSum">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/data_structures/DT_Solutions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/StringIntroductionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4131">
-          <caret line="163" column="13" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays_find">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/DT_Solutions_Arrays">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/DT_SolutionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/AbstractList.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/JavaListProblemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/HashSetProblem.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/data_structures/PairTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/generics/GenericPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/generics/GenericPrinterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/StudentComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/ComparatorChallenge/CheckerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/DivisorSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/DivisorSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenges/practice_java/AddVarargs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#191#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenges/practice_java/AddVarargsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
