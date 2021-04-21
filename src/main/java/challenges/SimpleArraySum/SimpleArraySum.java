@@ -1,5 +1,7 @@
 package challenges.SimpleArraySum;
 
+import java.util.Arrays;
+
 public class SimpleArraySum {
 
     int simpleArraySum(int[] ar) {
@@ -11,4 +13,13 @@ public class SimpleArraySum {
         }
         return sum;
     }
+
+    int simpleArraySumStreamReduce(int[] ar) {
+        return Arrays.stream(ar).reduce(0, (a, b) -> a + b);
+    }
+
+    int simpleArraySumStreamSum(int[] ar){
+        return Arrays.stream(ar).sum();
+    }
+
 }
