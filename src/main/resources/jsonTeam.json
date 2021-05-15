@@ -1,0 +1,14 @@
+{
+  "name": null,
+  "dateFounded": null,
+  "players": [
+    {
+      "name": "John 'Crazy' Muffin",
+      "position": "Attacker"
+    },
+    {
+      "name": "Bruce 'Mighty' Anvil",
+      "position": "Coach"
+    }
+  ]
+}
