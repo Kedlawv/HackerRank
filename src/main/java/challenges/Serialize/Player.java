@@ -4,6 +4,9 @@ public class Player {
     private String name;
     private String position;
 
+    public Player() {
+    }
+
     public Player(String name, String position) {
         this.name = name;
         this.position = position;

@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -21,8 +22,15 @@ class TeamTest {
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.writeValue(new File("src\\main\\resources\\jsonTeam.json"),team);
+    }
 
-
+    @Test
+    public void fromJson() throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        Team team = mapper.readValue(
+                new URL("file:src\\main\\resources\\jsonTeam.json"),Team.class);
+        assertEquals(2, team.getPlayers().size());
+        // Player must have a default Constructor
     }
 
 }
