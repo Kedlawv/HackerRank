@@ -11,6 +11,8 @@ public class RansomNote {
         Map<String, Integer> noteWordCount = new HashMap<>();
 
         // map.merge(word, 1, (prev, one) -> prev + one)
+        // map.merge(key, defaultValueIfAbsent, (valueOfKey, defaultValue) -> ).
+        // First argument of the BiFunction is a Value for the Key not the Key itself .
 
         for (String s : magazine) {
             magazineWordCount.merge(s, 1, (valueOfK, v) -> valueOfK + 1);
