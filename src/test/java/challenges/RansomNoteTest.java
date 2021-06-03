@@ -40,5 +40,17 @@ class RansomNoteTest {
         assertTrue(actual);
     }
 
+    @Test
+    void solutionTest4() {
+        List<String> magazine = Arrays.asList("o", "l", "x", "imjaw", "bee", "khmla", "v", "o", "v", "o",
+                "imjaw", "l", "khmla", "imjaw", "x");
+        List<String> note = Arrays.asList("imjaw", "l", "khmla", "x", "imjaw", "o", "l", "l", "o", "khmla", "v",
+                "bee", "o", "o", "imjaw", "imjaw", "o");
+
+        boolean actual = RansomNote.solution(magazine, note);
+
+        assertFalse(actual);
+    }
+
 
 }

@@ -10,13 +10,26 @@ public class RansomNote {
         Map<String, Integer> magazineWordCount = new HashMap<>();
         Map<String, Integer> noteWordCount = new HashMap<>();
 
+        // map.merge(word, 1, (prev, one) -> prev + one)
+
         for (String s : magazine) {
-            magazineWordCount.merge(s, 1, (k, v) -> v + 1);
+            magazineWordCount.merge(s, 1, (valueOfK, v) -> valueOfK + 1);
         }
         for (String s : note) {
-            noteWordCount.merge(s, 1, (k, v) -> v + 1);
+            noteWordCount.merge(s, 1, (valueOfK, v) -> valueOfK + 1);
+        }
+        // note map does not have to be a subset of magazine map
+        // magazine needs to have all the keys of note map but values can be larger !
+
+        for (Map.Entry<String, Integer> entry : noteWordCount.entrySet()) {
+            if (!magazineWordCount.containsKey(entry.getKey())) {
+                return false;
+            }
+            if (entry.getValue() > magazineWordCount.get(entry.getKey())) {
+                return false;
+            }
         }
 
-        return magazineWordCount.entrySet().containsAll(noteWordCount.entrySet());
+        return true;
     }
 }
