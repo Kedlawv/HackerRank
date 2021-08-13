@@ -1,10 +1,10 @@
 package challenges;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class TwoStrings {
+    // Given two strings, determine if they share a common substring.
+    // A substring may be as small as one character.
 
     // Given two strings, determine if they share a common substring.
     // A substring may be as small as one character.
@@ -37,5 +37,26 @@ public class TwoStrings {
         }
 
         return list;
+    }
+
+    // After reading the editorial turns out that this was a trick question lol
+    // We don't actually need to check all the substrings
+    // Because return is only YES or NO we only need to check if the two strings contain one character that
+    // is common
+    // Understanding the requirements was the key here
+
+    // Solution is to put all characters from two strings in to sets and check if the intersection is empty
+
+    public static String twoStringsNotNaive(String s1, String s2) {
+
+        Set<String> setOne = new HashSet<>(Arrays.asList(s1.split("")));
+        Set<String> setTwo = new HashSet<>(Arrays.asList(s2.split("")));
+
+        Set<String> intersection = new HashSet<>(setOne);
+        intersection.retainAll(setTwo);
+
+        return intersection.size() != 0 ? "YES" : "NO";
+
+
     }
 }
