@@ -8,9 +8,10 @@ public class BinaryGap {
         for(String s : binaryString){
             System.out.print(s);
         }
-        // two loops , outer -> find 1
-        // inner count 0's until next 1 , write number of iterations if larger than existing
-        // continue
+        //find beginning of the sequence
+        //count gap
+        // find end of sequence | save larger | reset gap counter
+
         int maxGap = 0;
         int gapLength = 0;
         boolean seqStart = false;
