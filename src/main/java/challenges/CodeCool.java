@@ -1,6 +1,7 @@
 package challenges;
 
 import java.util.List;
+import java.util.Random;
 
 public class CodeCool {
 
@@ -20,6 +21,16 @@ public class CodeCool {
     static <T extends Comparable<T>> T findUnique(List<T> list) {
 
         T notUnique;
+
+        // edge cases
+
+        if (list.size() == 0) throw new IllegalArgumentException("list can't be empty");
+        if (list.size() == 1) return list.get(0);
+        if (list.size() == 2) return list.get(new Random().nextInt(2));
+
+
+        // assumption was made from the ambiguous documentation that the argument list will be at
+        // least 3 elements | add edge cases above
 
         if (list.get(0).compareTo(list.get(1)) != 0) {
             return list.get(0).compareTo(list.get(2)) == 0 ? list.get(1) : list.get(0);
