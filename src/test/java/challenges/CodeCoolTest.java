@@ -11,7 +11,7 @@ class CodeCoolTest {
 
     @Test
     void findUniqueWhenFirstOneUniqueThenReturnFirstOne() {
-        List<Integer> inputList = Arrays.asList(1,2,2,2,2);
+        List<Integer> inputList = Arrays.asList(1, 2, 2, 2, 2);
         Integer expected = 1;
 
         Integer actual = CodeCool.findUnique(inputList);
@@ -21,7 +21,7 @@ class CodeCoolTest {
 
     @Test
     void findUniqueWhenSecondUniqueThenReturnSecond() {
-        List<Integer> inputList = Arrays.asList(2,1,2,2,2);
+        List<Integer> inputList = Arrays.asList(2, 1, 2, 2, 2);
         Integer expected = 1;
 
         Integer actual = CodeCool.findUnique(inputList);
@@ -31,7 +31,7 @@ class CodeCoolTest {
 
     @Test
     void findUniqueWhenThirdUniqueThenReturnThird() {
-        List<Integer> inputList = Arrays.asList(2,2,1,2,2);
+        List<Integer> inputList = Arrays.asList(2, 2, 1, 2, 2);
         Integer expected = 1;
 
         Integer actual = CodeCool.findUnique(inputList);
@@ -41,7 +41,7 @@ class CodeCoolTest {
 
     @Test
     void findUniqueWhenLastUniqueThenReturnLast() {
-        List<Integer> inputList = Arrays.asList(2,2,2,2,1);
+        List<Integer> inputList = Arrays.asList(2, 2, 2, 2, 1);
         Integer expected = 1;
 
         Integer actual = CodeCool.findUnique(inputList);

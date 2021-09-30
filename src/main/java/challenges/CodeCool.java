@@ -21,14 +21,14 @@ public class CodeCool {
 
         T notUnique;
 
-        if(list.get(0).compareTo(list.get(1)) != 0){
+        if (list.get(0).compareTo(list.get(1)) != 0) {
             return list.get(0).compareTo(list.get(2)) == 0 ? list.get(1) : list.get(0);
-        }else{
+        } else {
             notUnique = list.get(0);
         }
 
-        for(T elem : list){
-            if(elem.compareTo(notUnique) != 0) return elem;
+        for (T elem : list) {
+            if (elem.compareTo(notUnique) != 0) return elem;
         }
 
         return null;
